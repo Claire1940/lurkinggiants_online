@@ -1,1 +1,446 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "lurking-giants-codes",
+        "file": "lurking-giants-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "lurking-giants-beginner-guide",
+        "file": "lurking-giants-beginner-guide"
+      },
+      {
+        "slug": "lurking-giants-controls",
+        "file": "lurking-giants-controls"
+      },
+      {
+        "slug": "lurking-giants-how-to-play",
+        "file": "lurking-giants-how-to-play"
+      },
+      {
+        "slug": "lurking-giants-mobile-controls",
+        "file": "lurking-giants-mobile-controls"
+      },
+      {
+        "slug": "lurking-giants-pc-controls",
+        "file": "lurking-giants-pc-controls"
+      },
+      {
+        "slug": "lurking-giants-tips-and-tricks",
+        "file": "lurking-giants-tips-and-tricks"
+      }
+    ],
+    "maps": [
+      {
+        "slug": "lurking-giants-escape-routes",
+        "file": "lurking-giants-escape-routes"
+      },
+      {
+        "slug": "lurking-giants-how-to-get-on-top-of-the-map",
+        "file": "lurking-giants-how-to-get-on-top-of-the-map"
+      },
+      {
+        "slug": "lurking-giants-map-guide",
+        "file": "lurking-giants-map-guide"
+      },
+      {
+        "slug": "lurking-giants-maps",
+        "file": "lurking-giants-maps"
+      },
+      {
+        "slug": "lurking-giants-secret-areas",
+        "file": "lurking-giants-secret-areas"
+      }
+    ],
+    "monsters": [
+      {
+        "slug": "lurking-giants-giant-types",
+        "file": "lurking-giants-giant-types"
+      },
+      {
+        "slug": "lurking-giants-guilt-abilities",
+        "file": "lurking-giants-guilt-abilities"
+      },
+      {
+        "slug": "lurking-giants-guilt-showcase",
+        "file": "lurking-giants-guilt-showcase"
+      },
+      {
+        "slug": "lurking-giants-guilt",
+        "file": "lurking-giants-guilt"
+      },
+      {
+        "slug": "lurking-giants-monster-list",
+        "file": "lurking-giants-monster-list"
+      }
+    ],
+    "roles": [
+      {
+        "slug": "lurking-giants-giant-abilities",
+        "file": "lurking-giants-giant-abilities"
+      },
+      {
+        "slug": "lurking-giants-giant-guide",
+        "file": "lurking-giants-giant-guide"
+      },
+      {
+        "slug": "lurking-giants-how-to-play-as-giant",
+        "file": "lurking-giants-how-to-play-as-giant"
+      },
+      {
+        "slug": "lurking-giants-how-to-play-as-survivor",
+        "file": "lurking-giants-how-to-play-as-survivor"
+      },
+      {
+        "slug": "lurking-giants-survivor-guide",
+        "file": "lurking-giants-survivor-guide"
+      }
+    ],
+    "survival": [
+      {
+        "slug": "lurking-giants-best-hiding-spots",
+        "file": "lurking-giants-best-hiding-spots"
+      },
+      {
+        "slug": "lurking-giants-escape-guide",
+        "file": "lurking-giants-escape-guide"
+      },
+      {
+        "slug": "lurking-giants-how-to-survive",
+        "file": "lurking-giants-how-to-survive"
+      },
+      {
+        "slug": "lurking-giants-night-survival",
+        "file": "lurking-giants-night-survival"
+      },
+      {
+        "slug": "lurking-giants-solo-survival",
+        "file": "lurking-giants-solo-survival"
+      },
+      {
+        "slug": "lurking-giants-survival-tips",
+        "file": "lurking-giants-survival-tips"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "lurking-giants-alpha",
+        "file": "lurking-giants-alpha"
+      },
+      {
+        "slug": "lurking-giants-latest-version",
+        "file": "lurking-giants-latest-version"
+      },
+      {
+        "slug": "lurking-giants-patch-notes",
+        "file": "lurking-giants-patch-notes"
+      },
+      {
+        "slug": "lurking-giants-release-date",
+        "file": "lurking-giants-release-date"
+      },
+      {
+        "slug": "lurking-giants-update",
+        "file": "lurking-giants-update"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "lurking-giants-codes",
+        "file": "lurking-giants-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "lurking-giants-beginner-guide",
+        "file": "lurking-giants-beginner-guide"
+      },
+      {
+        "slug": "lurking-giants-controls",
+        "file": "lurking-giants-controls"
+      },
+      {
+        "slug": "lurking-giants-how-to-play",
+        "file": "lurking-giants-how-to-play"
+      },
+      {
+        "slug": "lurking-giants-mobile-controls",
+        "file": "lurking-giants-mobile-controls"
+      },
+      {
+        "slug": "lurking-giants-pc-controls",
+        "file": "lurking-giants-pc-controls"
+      },
+      {
+        "slug": "lurking-giants-tips-and-tricks",
+        "file": "lurking-giants-tips-and-tricks"
+      }
+    ],
+    "maps": [
+      {
+        "slug": "lurking-giants-escape-routes",
+        "file": "lurking-giants-escape-routes"
+      },
+      {
+        "slug": "lurking-giants-how-to-get-on-top-of-the-map",
+        "file": "lurking-giants-how-to-get-on-top-of-the-map"
+      },
+      {
+        "slug": "lurking-giants-map-guide",
+        "file": "lurking-giants-map-guide"
+      },
+      {
+        "slug": "lurking-giants-maps",
+        "file": "lurking-giants-maps"
+      },
+      {
+        "slug": "lurking-giants-secret-areas",
+        "file": "lurking-giants-secret-areas"
+      }
+    ],
+    "monsters": [
+      {
+        "slug": "lurking-giants-giant-types",
+        "file": "lurking-giants-giant-types"
+      },
+      {
+        "slug": "lurking-giants-guilt-abilities",
+        "file": "lurking-giants-guilt-abilities"
+      },
+      {
+        "slug": "lurking-giants-guilt-showcase",
+        "file": "lurking-giants-guilt-showcase"
+      },
+      {
+        "slug": "lurking-giants-guilt",
+        "file": "lurking-giants-guilt"
+      },
+      {
+        "slug": "lurking-giants-monster-list",
+        "file": "lurking-giants-monster-list"
+      }
+    ],
+    "roles": [
+      {
+        "slug": "lurking-giants-giant-abilities",
+        "file": "lurking-giants-giant-abilities"
+      },
+      {
+        "slug": "lurking-giants-giant-guide",
+        "file": "lurking-giants-giant-guide"
+      },
+      {
+        "slug": "lurking-giants-how-to-play-as-giant",
+        "file": "lurking-giants-how-to-play-as-giant"
+      },
+      {
+        "slug": "lurking-giants-how-to-play-as-survivor",
+        "file": "lurking-giants-how-to-play-as-survivor"
+      },
+      {
+        "slug": "lurking-giants-survivor-guide",
+        "file": "lurking-giants-survivor-guide"
+      }
+    ],
+    "survival": [
+      {
+        "slug": "lurking-giants-best-hiding-spots",
+        "file": "lurking-giants-best-hiding-spots"
+      },
+      {
+        "slug": "lurking-giants-escape-guide",
+        "file": "lurking-giants-escape-guide"
+      },
+      {
+        "slug": "lurking-giants-how-to-survive",
+        "file": "lurking-giants-how-to-survive"
+      },
+      {
+        "slug": "lurking-giants-night-survival",
+        "file": "lurking-giants-night-survival"
+      },
+      {
+        "slug": "lurking-giants-solo-survival",
+        "file": "lurking-giants-solo-survival"
+      },
+      {
+        "slug": "lurking-giants-survival-tips",
+        "file": "lurking-giants-survival-tips"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "lurking-giants-alpha",
+        "file": "lurking-giants-alpha"
+      },
+      {
+        "slug": "lurking-giants-latest-version",
+        "file": "lurking-giants-latest-version"
+      },
+      {
+        "slug": "lurking-giants-patch-notes",
+        "file": "lurking-giants-patch-notes"
+      },
+      {
+        "slug": "lurking-giants-release-date",
+        "file": "lurking-giants-release-date"
+      },
+      {
+        "slug": "lurking-giants-update",
+        "file": "lurking-giants-update"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "lurking-giants-codes",
+        "file": "lurking-giants-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "lurking-giants-beginner-guide",
+        "file": "lurking-giants-beginner-guide"
+      },
+      {
+        "slug": "lurking-giants-controls",
+        "file": "lurking-giants-controls"
+      },
+      {
+        "slug": "lurking-giants-how-to-play",
+        "file": "lurking-giants-how-to-play"
+      },
+      {
+        "slug": "lurking-giants-mobile-controls",
+        "file": "lurking-giants-mobile-controls"
+      },
+      {
+        "slug": "lurking-giants-pc-controls",
+        "file": "lurking-giants-pc-controls"
+      },
+      {
+        "slug": "lurking-giants-tips-and-tricks",
+        "file": "lurking-giants-tips-and-tricks"
+      }
+    ],
+    "maps": [
+      {
+        "slug": "lurking-giants-escape-routes",
+        "file": "lurking-giants-escape-routes"
+      },
+      {
+        "slug": "lurking-giants-how-to-get-on-top-of-the-map",
+        "file": "lurking-giants-how-to-get-on-top-of-the-map"
+      },
+      {
+        "slug": "lurking-giants-map-guide",
+        "file": "lurking-giants-map-guide"
+      },
+      {
+        "slug": "lurking-giants-maps",
+        "file": "lurking-giants-maps"
+      },
+      {
+        "slug": "lurking-giants-secret-areas",
+        "file": "lurking-giants-secret-areas"
+      }
+    ],
+    "monsters": [
+      {
+        "slug": "lurking-giants-giant-types",
+        "file": "lurking-giants-giant-types"
+      },
+      {
+        "slug": "lurking-giants-guilt-abilities",
+        "file": "lurking-giants-guilt-abilities"
+      },
+      {
+        "slug": "lurking-giants-guilt-showcase",
+        "file": "lurking-giants-guilt-showcase"
+      },
+      {
+        "slug": "lurking-giants-guilt",
+        "file": "lurking-giants-guilt"
+      },
+      {
+        "slug": "lurking-giants-monster-list",
+        "file": "lurking-giants-monster-list"
+      }
+    ],
+    "roles": [
+      {
+        "slug": "lurking-giants-giant-abilities",
+        "file": "lurking-giants-giant-abilities"
+      },
+      {
+        "slug": "lurking-giants-giant-guide",
+        "file": "lurking-giants-giant-guide"
+      },
+      {
+        "slug": "lurking-giants-how-to-play-as-giant",
+        "file": "lurking-giants-how-to-play-as-giant"
+      },
+      {
+        "slug": "lurking-giants-how-to-play-as-survivor",
+        "file": "lurking-giants-how-to-play-as-survivor"
+      },
+      {
+        "slug": "lurking-giants-survivor-guide",
+        "file": "lurking-giants-survivor-guide"
+      }
+    ],
+    "survival": [
+      {
+        "slug": "lurking-giants-best-hiding-spots",
+        "file": "lurking-giants-best-hiding-spots"
+      },
+      {
+        "slug": "lurking-giants-escape-guide",
+        "file": "lurking-giants-escape-guide"
+      },
+      {
+        "slug": "lurking-giants-how-to-survive",
+        "file": "lurking-giants-how-to-survive"
+      },
+      {
+        "slug": "lurking-giants-night-survival",
+        "file": "lurking-giants-night-survival"
+      },
+      {
+        "slug": "lurking-giants-solo-survival",
+        "file": "lurking-giants-solo-survival"
+      },
+      {
+        "slug": "lurking-giants-survival-tips",
+        "file": "lurking-giants-survival-tips"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "lurking-giants-alpha",
+        "file": "lurking-giants-alpha"
+      },
+      {
+        "slug": "lurking-giants-latest-version",
+        "file": "lurking-giants-latest-version"
+      },
+      {
+        "slug": "lurking-giants-patch-notes",
+        "file": "lurking-giants-patch-notes"
+      },
+      {
+        "slug": "lurking-giants-release-date",
+        "file": "lurking-giants-release-date"
+      },
+      {
+        "slug": "lurking-giants-update",
+        "file": "lurking-giants-update"
+      }
+    ]
+  }
+}

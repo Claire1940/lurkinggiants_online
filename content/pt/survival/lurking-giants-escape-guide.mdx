@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Fuga de Lurking Giants: Melhores Táticas de Sobrevivência e Extração",
+  description: "Domine o guia de fuga de Lurking Giants com estratégias de especialistas para gestão de calor, evasão de gigantes e extração bem-sucedida neste sucesso de terror do Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Lurking+Giants+Escape+Tactics",
+  date: "2026-07-12",
+  author: "Equipe da Wiki de Lurking Giants",
+  keywords: "lurking giants, guia de fuga, sobrevivência roblox, gigantes escondidos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Navegar com sucesso pelo mapa enquanto gerencia o **Calor** e a **Fome** para alcançar o ponto de extração final.
+- **Prioridade de Furtividade**: Evite o contato direto com os gigantes usando a cobertura do ambiente e monitorando os sons de suas patrulhas.
+- **Gestão de Recursos**: Priorize encontrar combustível para as fogueiras para evitar o congelamento, pois a baixa temperatura é a causa mais comum de morte.
+- **Coordenação de Equipe**: Trabalhe com outros jogadores para distrair os gigantes enquanto um jogador completa as interações dos objetivos.
+- **Tempo de Extração**: Só acione a sequência de fuga final quando todos os jogadores tiverem estamina e saúde suficientes.
+</Callout>
+
+<Section icon={Map} title="Mecânicas Principais e Configuração Inicial">
+
+Navegar pela paisagem traiçoeira desta experiência de terror assimétrico exige mais do que apenas reflexos rápidos. Este **guia de fuga de Lurking Giants** foi projetado para ajudá-lo a entender os sistemas fundamentais que ditam sua sobrevivência. Ao contrário dos jogos de terror padrão onde o monstro é a única ameaça, aqui o ambiente é tão mortal quanto. Você deve equilibrar constantemente sua temperatura interna e necessidades nutricionais, permanecendo silencioso o suficiente para evitar a detecção das entidades massivas que patrulham a área.
+
+**Destaques do Vídeo:**
+- Visão geral do ciclo de jogabilidade assimétrica.
+- Sinais visuais para o esgotamento de **Calor** e **Fome**.
+- Demonstração dos alcances de detecção e padrões de movimento dos gigantes.
+- Navegação básica no mapa e identificação de pontos de referência.
+
+<YouTubeEmbed videoId="esEvsnh2pjw" title="Lurking Giants | Outro Jogo de Terror Assimétrico no Roblox" />
+
+Entender a interface é o seu primeiro passo para uma fuga bem-sucedida. Sua tela exibe medidores críticos que representam seu estado físico. Ignorá-los levará a uma morte rápida, muitas vezes antes mesmo de você encontrar um gigante.
+
+| Nome do Medidor | Função Principal | Penalidade de Esgotamento |
+| :--- | :--- | :--- |
+| **Calor** | Rastreia a temperatura corporal | Redução da velocidade de movimento, perda de vida |
+| **Fome** | Rastreia os níveis nutricionais | A regeneração de estamina para, visão embaçada |
+| **Estamina** | Governa a corrida e os saltos | Incapacidade de fugir dos gigantes em uma perseguição |
+| **Saúde** | Pontos de vida gerais | Fim de jogo ao chegar a zero |
+
+<Callout type="tip" title="Dica de Profissional">
+Mantenha sempre seu medidor de **Calor** acima de 40%. Quando ele cai abaixo desse limite, seu personagem começará a tremer, fazendo barulho que pode atrair gigantes próximos, mesmo que você esteja escondido nas sombras.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gerenciando Perigos Ambientais">
+
+O ambiente é um assassino silencioso que trabalha em conjunto com os gigantes. No mundo de **Lurking Giants** (ou Gigantes Escondidos), o frio é um inimigo persistente. Você deve se mover entre "Zonas Seguras" ou fontes de calor para permanecer vivo. Essas fontes costumam ser limitadas e exigem combustível, que deve ser coletado nas ruínas ao redor.
+
+| Tipo de Recurso | Localização | Uso |
+| :--- | :--- | :--- |
+| **Pedaços de Madeira** | Perto de edifícios em ruínas | Usado para alimentar fogueiras por 60 segundos |
+| **Comida Enlatada** | Encontrada dentro de armários e caixotes | Restaura 25% do medidor de Fome |
+| **Pacotes de Calor** | Saque raro em zonas industriais | Fornece um bônus temporário de calor de 30 segundos |
+| **Pilhas de Lanterna** | Prateleiras e mesas | Mantém sua fonte de luz ativa para navegação |
+
+A sobrevivência é um jogo de saltar de um nó de recurso para o outro. Não vagueie sem rumo pela selva sem um destino claro. Se você for pego em uma nevasca sem uma fonte de calor, suas chances de alcançar o ponto de extração caem significativamente.
+
+<Callout type="warning" title="Aviso Ambiental">
+As fogueiras emitem luz que é visível para os gigantes a uma longa distância. Só acenda o fogo quando seu **Calor** estiver criticamente baixo e apague-o ou afaste-se assim que estiver recuperado.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Zona Industrial">
+    - **Alta densidade de saques**
+    - Alta frequência de patrulha de gigantes
+    - Excelente cobertura vertical
+  </Card>
+  <Card title="A Floresta">
+    - **Camuflagem natural**
+    - Distribuição esparsa de recursos
+    - Difícil de navegar à noite
+  </Card>
+  <Card title="O Posto Avançado">
+    - **Fontes de calor permanentes**
+    - Rotas de fuga limitadas
+    - Alto risco de ser encurralado
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Evasão de Gigantes e Táticas de Furtividade">
+
+Os "Gigantes" neste jogo não são apenas grandes; eles são altamente sintonizados com som e luz. O uso eficaz do **guia de fuga de Lurking Giants** envolve dominar a arte de ser invisível. Cada gigante tem um perfil de detecção único, mas todos compartilham uma fraqueza comum: caminhos de patrulha previsíveis.
+
+| Tipo de Gigante | Força de Detecção | Velocidade de Movimento | Habilidade Especial |
+| :--- | :--- | :--- | :--- |
+| **O Espreitador** | Alta (Visual) | Muito Rápido | Pode escalar certas estruturas baixas |
+| **O Behemoth** | Alta (Áudio) | Lento | Golpe no chão que atordoa jogadores próximos |
+| **O Buscador** | Moderada | Média | Emite um pulso que revela silhuetas de jogadores |
+
+Para sobreviver a um encontro, você deve aprender a ouvir. Os gigantes produzem passos pesados e vocalizações distintas. Se a tela começar a tremer ou o áudio ficar distorcido, um gigante está nas suas proximidades imediatas.
+
+<Steps>
+  <Step num="1" title="Reconhecimento Visual">
+    Antes de se mover para uma nova área, encontre um ponto de observação alto para procurar pelos olhos brilhantes ou silhuetas dos gigantes.
+  </Step>
+  <Step num="2" title="Mascaramento de Som">
+    Espere por ruídos ambientais, como trovões ou maquinários, para mascarar o som de suas corridas ou saltos.
+  </Step>
+  <Step num="3" title="Disciplina de Luz">
+    Mantenha sua lanterna desligada, a menos que seja absolutamente necessário. Os gigantes podem ver o feixe de luz a centenas de metros de distância.
+  </Step>
+  <Step num="4" title="Esconderijo de Emergência">
+    Se for avistado, quebre a linha de visão imediatamente. Use armários, arbustos densos ou espaços de rastejamento onde o tamanho dos gigantes os impede de entrar.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota de Furtividade">
+Agachar-se reduz sua pegada sonora em 70%. Embora seja mais lento, é a maneira mais segura de passar por um gigante que está investigando sua última posição conhecida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="A Sequência de Fuga Final">
+
+Depois de reunir recursos suficientes e sobreviver às fases iniciais, você deve acionar a extração. Esta é a parte mais perigosa do jogo, pois os gigantes tornam-se mais agressivos assim que a sequência de fuga começa. O **guia de fuga de Lurking Giants** recomenda uma abordagem coordenada durante esta fase.
+
+| Fase de Fuga | Requisito | Nível de Risco |
+| :--- | :--- | :--- |
+| **Ativação do Sinal** | Interagir com a torre de rádio | **Alto**: Alerta todos os gigantes sobre sua localização |
+| **Abastecendo o Portão** | Coletar 3 galões de combustível | **Moderado**: Requer mover-se por terreno aberto |
+| **Extração Final** | Esperar o portão abrir | **Crítico**: Deve defender uma pequena área |
+
+Durante a "Ativação do Sinal", a torre de rádio emitirá uma sirene alta. Este é o seu sinal para se mover. Você não pode se esconder para sempre depois que isso começar. Os gigantes convergirão para a torre, então você deve usar a confusão para alcançar os galões de combustível localizados em subzonas próximas.
+
+<CardGrid cols={2}>
+  <Card title="Estratégia de Fuga Solo">
+    - **Foco na velocidade**
+    - Use distrações como sinalizadores
+    - Priorize furtividade em vez de combate
+  </Card>
+  <Card title="Estratégia de Fuga em Equipe">
+    - **Jogador isca designado**
+    - Conclusão simultânea de objetivos
+    - Pool de recursos compartilhado para calor/comida
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Extração">
+Economize sua estamina para a corrida final de 100 metros até o portão. Muitos jogadores falham porque esgotam sua barra de estamina lutando contra ameaças menores e não têm nada sobrando quando o gigante faz sua investida final.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipamentos Avançados e Progressão">
+
+À medida que você completa mais fugas, ganhará moeda que pode ser gasta em melhores equipamentos iniciais. Embora a habilidade seja o fator principal para a sobrevivência, ter o equipamento certo pode fazer uma diferença significativa em partidas difíceis.
+
+| Nome do Item | Custo | Benefício |
+| :--- | :--- | :--- |
+| **Jaqueta Isolante** | 500 Créditos | Reduz a taxa de perda de Calor em 20% |
+| **Bateria de Alta Capacidade** | 300 Créditos | Dobra a duração da lanterna |
+| **Sinalizador de Feromônio** | 450 Créditos | Distrai gigantes por 10 segundos |
+| **Pacote de Vitaminas** | 400 Créditos | Aumenta a estamina máxima em 15% |
+
+Recomendamos priorizar a **Jaqueta Isolante** primeiro. Como a gestão de calor é uma luta constante, reduzir a frequência com que você precisa encontrar fogueiras permite que você se concentre mais na furtividade e na conclusão de objetivos.
+
+<Callout type="tip" title="Estratégia de Loadout">
+Em uma equipe de quatro, garanta que pelo menos uma pessoa carregue **Sinalizadores de Feromônio**. Eles são salva-vidas durante a fase de extração final, quando vários gigantes estão se fechando no portão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Prontidão para Fuga">
+
+Antes de tentar acionar a fuga final, certifique-se de que sua equipe atenda a estes critérios. Prosseguir cedo demais é a principal causa de "Eliminação Total da Equipe" (TPKs) em jogos de alto nível.
+
+<Checklist
+  id="escape-readiness"
+  title="Checklist Pré-Extração:"
+  items={[
+    "Todos os jogadores têm pelo menos 80% de Calor",
+    "Os medidores de Fome estão acima do limite de 'Penalidade de Estamina'",
+    "Pelo menos dois Sinalizadores de Feromônio estão disponíveis para distração",
+    "O caminho para os galões de combustível foi explorado",
+    "As lanternas estão totalmente carregadas para a corrida final"
+  ]}
+/>
+
+Ao seguir este **guia de fuga de Lurking Giants**, você aumenta significativamente sua probabilidade de sobrevivência. Lembre-se de que a paciência é sua maior arma. Esperar trinta segundos extras para um gigante passar por um ponto de afunilamento é sempre melhor do que se apressar e ser pego em campo aberto.
+
+<FAQ items={[
+  {
+    question: "Qual é o atributo mais importante no guia de fuga de Lurking Giants?",
+    answer: "O Calor é o atributo mais crítico. Se você congelar, perde a capacidade de correr, tornando-se um alvo fácil para qualquer gigante nas proximidades."
+  },
+  {
+    question: "É possível matar os gigantes?",
+    answer: "Não, os gigantes não podem ser mortos pelos jogadores. Suas únicas opções são se esconder, distraí-los com itens ou superá-los usando o ambiente."
+  },
+  {
+    question: "Como encontro comida na zona industrial?",
+    answer: "Procure por pequenas latas prateadas dentro de armários de metal ou em cima de caixotes de madeira. Essas áreas têm a maior taxa de surgimento de suprimentos nutricionais."
+  },
+  {
+    question: "O que acontece se a bateria da minha lanterna acabar?",
+    answer: "Você será forçado a navegar em escuridão quase total. Isso torna quase impossível ver os gigantes até que eles estejam bem em cima de você, e você pode perder saques críticos."
+  }
+]} />
+
+</Section>

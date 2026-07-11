@@ -1,0 +1,218 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia para Iniciantes em Lurking Giants: Dicas de Sobrevivência e Mecânicas",
+  description: "Domine o básico de Lurking Giants com nosso guia para iniciantes de 2026. Aprenda táticas de sobrevivência, gestão de recursos e como se juntar à comunidade oficial.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Lurking+Giants+Beginner+Guide",
+  date: "2026-07-12",
+  author: "Equipe da Wiki de Lurking Giants",
+  keywords: "lurking giants, guia para iniciantes, sobrevivência, mecânicas, dicas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Dominar as estratégias do **guia para iniciantes em lurking giants** para sobreviver a encontros com entidades massivas.
+- **Furtividade Primeiro**: Evite o combate direto no início do jogo; use cobertura ambiental e ande agachado.
+- **Gestão de Recursos**: Priorize a coleta de madeira e pederneira para fabricar ferramentas básicas antes do anoitecer.
+- **Conexão com a Comunidade**: Junte-se ao Discord oficial para receber atualizações em tempo real e suporte da comunidade.
+- **Controle de Estamina**: Nunca deixe sua barra de estamina chegar a zero, pois isso impede a corrida durante fugas de emergência.
+</Callout>
+
+<Section icon={Users} title="Integração e Configuração da Comunidade">
+
+Iniciar sua jornada no mundo das entidades massivas requer mais do que apenas habilidades no jogo; requer manter-se conectado com a base de jogadores. Os desenvolvedores frequentemente lançam hotfixes e atualizações de equilíbrio que podem alterar significativamente sua estratégia de sobrevivência. Juntar-se às plataformas oficiais da comunidade é o primeiro passo para qualquer jogador que segue um **guia para iniciantes em lurking giants**.
+
+**Destaques do Vídeo:**
+- **Acessando o Discord**: Navegue até o menu de entrada do servidor no aplicativo Discord.
+- **Códigos de Convite**: Use o código alfanumérico específico fornecido nas descrições oficiais.
+- **Verificação do Servidor**: Conclua a configuração básica para desbloquear os canais de guia da comunidade.
+
+<YouTubeEmbed videoId="e32u80Z6FjM" title="Como se Juntar ao Servidor Discord de Lurking Giants" />
+
+| Recurso | Benefício para a Comunidade | Método de Acesso |
+| :--- | :--- | :--- |
+| **Discord Oficial** | Notas de patch, Relato de bugs, LFG | Link/Código de Convite |
+| **Banco de Dados Wiki** | Estatísticas de itens, Coordenadas do mapa | Navegador Web |
+| **Ticket de Suporte** | Recuperação de conta, Ajuda técnica | Discord/E-mail |
+
+<Callout type="tip" title="Mantenha-se Atualizado">
+O servidor do Discord é a maneira mais rápida de saber sobre os "Eventos de Espreita" (Lurking Events), que são chefes de mundo por tempo limitado que oferecem materiais de fabricação exclusivos.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Mecânicas Principais de Jogabilidade">
+
+Entender os sistemas fundamentais é o que separa os sobreviventes das vítimas. Neste mundo, os gigantes operam com rotinas complexas de IA, incluindo visão, som e olfato. Sua interface fornece feedback crítico sobre sua visibilidade e níveis de ruído. Dominar esses indicadores é o coração de qualquer **guia para iniciantes em lurking giants**.
+
+| Mecânica | Descrição | Impacto na Sobrevivência |
+| :--- | :--- | :--- |
+| **Medidor de Furtividade** | Indica o quão visível você está | Alta visibilidade atrai a agressividade do Gigante |
+| **Indicador de Ruído** | Mostra o som gerado pelo movimento | Correr atrai entidades próximas |
+| **Barra de Estamina** | Governa a corrida e a escalada | Barra vazia leva à exaustão |
+| **Exposição** | Efeitos da temperatura ambiental | Causa perda de vida ao longo do tempo |
+
+O movimento neste jogo é deliberado. Você deve aprender a diferenciar entre os passos pesados de um "Colossus" e os movimentos mais leves e erráticos de um "Scout". Os Scouts são a principal ameaça para iniciantes, pois são mais rápidos e mais propensos a investigar pequenos ruídos.
+
+<Callout type="warning" title="Gestão de Estamina">
+Evite a "Queima de Estamina". Se você usar toda a sua barra, seu personagem entrará em um estado de respiração ofegante, aumentando significativamente o ruído que você gera por 5 segundos.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Caminhada Agachada">
+    - **Ruído Reduzido**: Mova-se silenciosamente pela grama alta.
+    - **Perfil Baixo**: Mais difícil para os Gigantes avistarem à distância.
+    - **Ritmo Lento**: Não consome estamina, mas percorre menos terreno.
+  </Card>
+  <Card title="Corrida">
+    - **Alta Velocidade**: Essencial para escapar de uma perseguição.
+    - **Ruído Alto**: Alertará tudo em um raio de 50 metros.
+    - **Consumo de Recursos**: Consome estamina rapidamente.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Passo a Passo de Sobrevivência no Primeiro Dia">
+
+Seus primeiros 20 minutos são os mais críticos. Você começa com nada e deve garantir rapidamente ferramentas básicas antes que a primeira patrulha de gigantes passe pela sua área de renascimento. Siga estes passos para garantir um início bem-sucedido.
+
+<Steps>
+  <Step num="1" title="Coletar Materiais de Superfície">
+    Procure por galhos soltos e pedras pequenas no chão. Não tente cortar árvores até ter fabricado seu primeiro machado de pedra, pois socar árvores causa pequenos danos à saúde e ruído excessivo.
+  </Step>
+  <Step num="2" title="Fabricar Ferramentas Básicas">
+    Abra seu menu de fabricação e priorize o Machado de Pedra e a Picareta Rudimentar. Eles permitem coletar recursos 3x mais rápido e com 50% menos ruído do que usando as mãos.
+  </Step>
+  <Step num="3" title="Encontrar Terrenos Elevados">
+    Localize um penhasco ou uma ruína alta. Os gigantes têm visão vertical limitada. Estabelecer um pequeno posto de observação cedo ajuda você a rastrear os caminhos de patrulha deles sem ser visto.
+  </Step>
+  <Step num="4" title="Garantir Comida e Água">
+    Encontre uma fonte de água doce. Bagas são um alimento seguro para o início do jogo, mas fornecem baixa saciedade. Tente caçar animais pequenos assim que tiver os materiais para uma armadilha básica.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Tempo de Patrulha">
+Os gigantes geralmente seguem uma rotina de caminho definida. Observe um gigante por um ciclo completo (geralmente 3-5 minutos) para entender quando é seguro atravessar campos abertos.
+</Callout>
+
+| Item Inicial | Materiais Necessários | Uso Principal |
+| :--- | :--- | :--- |
+| **Machado de Pedra** | 2 Madeira, 1 Pedra | Corte de madeira, Defesa básica |
+| **Tocha Rudimentar** | 1 Madeira, 1 Fibra | Visibilidade, Afastar pragas pequenas |
+| **Bandagem de Fibra** | 3 Fibra Vegetal | Curar ferimentos leves |
+| **Porrete de Madeira** | 4 Madeira | Atordoar ameaças pequenas |
+
+</Section>
+
+<Section icon={Shield} title="Equipamentos e Níveis de Fabricação">
+
+À medida que você progride, seu equipamento determinará quais zonas você pode entrar com segurança. O **guia para iniciantes em lurking giants** enfatiza a mudança do nível de "Sucata" para o nível de "Ferro" o mais rápido possível para resistir aos perigos ambientais.
+
+| Nível | Material | Durabilidade | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Nível 0** | Madeira/Pedra | Baixa | Primeiros 30 minutos |
+| **Nível 1** | Sucata de Metal | Média | Exploração inicial |
+| **Nível 2** | Ferro | Alta | Combate e Mineração |
+| **Nível 3** | Osso de Gigante | Muito Alta | Sobrevivência no final do jogo |
+
+Bancadas de fabricação são necessárias para itens de nível superior. Você deve construir uma "Bancada de Trabalho" dentro de uma área escondida — idealmente uma caverna ou uma mata densa — para evitar atrair a atenção de Gigantes errantes que são atraídos pelo som de marteladas.
+
+<CardGrid cols={3}>
+  <Card title="Build de Sobrevivente">
+    - Foco em **Estamina**
+    - Alta velocidade de movimento
+    - Armadura leve
+  </Card>
+  <Card title="Build de Tanque">
+    - Foco em **Vida**
+    - Armadura de osso pesada
+    - Proficiência com escudo
+  </Card>
+  <Card title="Build de Explorador">
+    - Foco em **Furtividade**
+    - Equipamento de camuflagem
+    - Foco em arco e flecha
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Eficiência">
+Sempre carregue um "Martelo de Reparo". É mais barato consertar uma ferramenta de Nível 2 do que fabricar uma nova do zero.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias de Encontro com Gigantes">
+
+Inevitavelmente, você será avistado. Saber como reagir pode significar a diferença entre uma fuga por pouco e a perda total do inventário. Os gigantes não são invencíveis, mas no início do jogo, devem ser tratados como perigos ambientais em vez de inimigos a serem combatidos.
+
+**Tipos de Comportamento dos Gigantes:**
+- **O Errante (The Wanderer)**: Move-se sem rumo. Alta visão periférica, mas baixa audição.
+- **O Sentinela (The Sentinel)**: Permanece em um local guardando saques valiosos. Audição muito alta.
+- **O Rastreador (The Tracker)**: Procura especificamente por estruturas feitas por jogadores. Seguirá trilhas de odor.
+
+| Ação | Resultado | Recomendado Quando |
+| :--- | :--- | :--- |
+| **Congelar** | Reduz a visibilidade em 40% | O Gigante está olhando na sua direção |
+| **Distração** | Arremessa uma pedra para criar ruído | Você precisa liberar um caminho |
+| **Mergulhar** | Movimento rápido para deitar | O Gigante está prestes a golpear ou pisotear |
+| **Bomba de Fumaça** | Quebra a linha de visão | Você está encurralado ou preso |
+
+<Callout type="warning" title="Penalidade de Morte">
+Ao morrer, você derruba todos os "Itens da Mochila". Seus "Itens do Cinto" (ferramentas e armas) permanecem com você. Sempre mantenha suas ferramentas mais valiosas nos slots do cinto!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Metas para Iniciantes">
+
+Para acompanhar seu progresso de forma eficaz, use este checklist para garantir que você cobriu todos os conceitos básicos do **guia para iniciantes em lurking giants**. Concluir estas tarefas irá prepará-lo para os desafios do meio do jogo.
+
+<Checklist
+  id="beginner-milestones"
+  title="Suas Metas para a Primeira Semana:"
+  items={[
+    "Fabricar um conjunto completo de Armadura de Sucata de Metal",
+    "Estabelecer uma base com pelo menos 3 baús de armazenamento",
+    "Distrair um Gigante com sucesso usando um item arremessável",
+    "Encontrar e ativar seu primeiro Pilar de Ponto de Referência (Waypoint Pillar)",
+    "Juntar-se ao Discord oficial para eventos da comunidade",
+    "Sobreviver a um ciclo noturno completo sem morrer"
+  ]}
+/>
+
+<Callout type="info" title="Conselho Final">
+Não tenha medo de falhar. Cada morte em Lurking Giants fornece um "Ponto de Conhecimento" que pode ser usado para desbloquear bônus de estatísticas permanentes no menu principal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como encontro o servidor do Discord mencionado no guia para iniciantes em lurking giants?",
+    answer: "Você pode entrar abrindo o Discord, clicando no ícone de mais para 'Entrar em um Servidor' e inserindo o código encontrado na descrição oficial do jogo ou em vídeos da comunidade."
+  },
+  {
+    question: "Posso matar um Gigante sendo um iniciante solo?",
+    answer: "É extremamente difícil e não recomendado. Geralmente, você precisa de armas de Nível 3 e armadilhas para derrubar até mesmo os tipos menores de Gigantes."
+  },
+  {
+    question: "Qual é a melhor maneira de se esconder de um Gigante Rastreador?",
+    answer: "Atravesse água corrente, como um rio ou riacho, para mascarar seu odor, e use uma pasta de ervas de 'Mascaramento de Odor' se tiver os materiais."
+  },
+  {
+    question: "Os Gigantes destroem bases construídas por jogadores?",
+    answer: "Sim, certos Gigantes como o 'Crusher' podem destruir estruturas de madeira. É vital construir sua primeira base em um local que seja naturalmente obscurecido."
+  }
+]} />
+
+</Section>

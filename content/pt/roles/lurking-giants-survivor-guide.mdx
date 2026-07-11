@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Sobrevivência de Gigantes Escondidos: Melhores Táticas e Estratégias de Mapa",
+  description: "Domine o Gigantes Escondidos no Roblox com o nosso guia de sobrevivência. Aprenda táticas de terreno elevado, gerenciamento de stamina e navegação de mapa para sobreviver à noite.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1e2f/fff?text=Lurking+Giants+Survivor+Guide",
+  date: "2026-07-12",
+  author: "Equipe da Wiki de Gigantes Escondidos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de sobrevivência de Gigantes Escondidos**: O objetivo final de sobrevivência é gerenciar a stamina e usar o terreno vertical para evitar monstros gigantes até as 06:00.
+- **Mecânica de Corrida**: Correr está associado à tecla **E** por padrão. Use com moderação para evitar ficar sem stamina durante as perseguições.
+- **Vantagem de Terreno Elevado**: Subir em torres, rochas altas e estruturas é a maneira mais eficaz de ficar fora do alcance imediato do monstro.
+- **Esconder-se em Cantos**: Se for pego no chão, misture-se em cantos escuros atrás de rochas ou objetos grandes e desligue sua lanterna para evitar a detecção.
+- **Inventário da Loja**: Use pontos obtidos ao sobreviver às rodadas para comprar itens do lobby e cosméticos como Locus ou Guilt.
+</Callout>
+
+<Section icon={Map} title="Introdução à Sobrevivência em Gigantes Escondidos">
+
+O Gigantes Escondidos do Roblox é uma experiência de terror intensa e atmosférica na qual os jogadores devem sobreviver em ambientes de escuridão total enquanto uma criatura enorme e aterrorizante os persegue a partir das sombras. A sobrevivência depende de pistas sonoras, percepção espacial e navegação inteligente pelo ambiente. Para sobreviver consistentemente à noite, você deve dominar os layouts dos mapas, entender o comportamento dos monstros e utilizar as mecânicas de movimento do jogo em seu potencial máximo.
+
+**Destaques do Vídeo:**
+- **Atmosfera Aterrorizante**: Saiba como o ambiente escuro e o design de som misterioso afetam a visibilidade do jogo.
+- **Básicos de Movimentação**: Entenda como alternar a trava de mira (shift lock) e usar a tecla padrão de corrida.
+- **Segurança em Terreno Elevado**: Observe como os jogadores utilizam torres e rochas elevadas para se manterem a salvo do gigante.
+
+<YouTubeEmbed videoId="c3lV5YlfDQQ" title="ROBLOX GIGANTES ESCONDIDOS É REALMENTE ATERRORIZANTE..." />
+
+| Fase de Sobrevivência | Período de Tempo | Objetivo Principal | Nível de Perigo |
+|---|---|---|---|
+| Início do Jogo | 08:00 - 12:00 | Localizar terreno elevado, agrupar-se, desligar a lanterna | Baixo |
+| Meio do Jogo | 12:00 - 04:00 | Monitorar o movimento do monstro, gerenciar stamina, manter silêncio | Médio |
+| Fim do Jogo | 04:00 - 06:00 | Manter posições defensivas, evitar provocar o monstro, sobreviver | Alto |
+
+<Callout type="tip" title="Dica de Mestre">
+Sempre desligue a trava de mira (shift lock) se ela interferir na sua subida de escadas. Subir rapidamente é essencial quando um gigante está perseguindo você.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Movimento Essenciais e Gerenciamento de Stamina">
+
+A movimentação neste jogo difere dos títulos padrão do Roblox. Saber como e quando se mover é a diferença entre sobreviver e ser eliminado instantaneamente pelo gigante.
+
+### Controles de Corrida e Stamina
+Ao contrário da maioria dos jogos que mapeiam a corrida para a tecla Shift, este título mapeia a corrida para a tecla **E**. Gerenciar esse recurso evita que você seja pego indefeso em campo aberto.
+
+| Ação de Controle | Tecla | Uso Ideal |
+|---|---|---|
+| Correr | E | Use apenas quando estiver sendo perseguido ativamente ou transitando entre pontos altos |
+| Trava de Mira (Shift Lock) | Shift | Desative ao subir escadas para evitar bugs na câmera |
+| Lanterna | Clique/Toque | Mantenha desligada, a menos que seja absolutamente necessário para navegar em áreas internas escuras |
+
+<CardGrid cols={3}>
+  <Card title="Conservação de Stamina">
+    Nunca segure a tecla **E** continuamente. Caminhe durante os períodos de calmaria para manter sua barra de stamina cheia.
+  </Card>
+  <Card title="Disciplina com a Lanterna">
+    As lanternas emitem um brilho forte que torna você um alvo fácil. Em vez disso, confie na luz ambiente ou nas posições dos seus companheiros de equipe.
+  </Card>
+  <Card title="Navegação em Escadas">
+    Mantenha a câmera voltada diretamente para cima ao subir escadas para garantir que você não escorregue no meio da subida.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso">
+O gigante tem um alcance extremamente longo. Se você correr cedo demais e esgotar sua stamina, não conseguirá escapar de seus ataques de varredura com os braços.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Sobrevivência Passo a Passo">
+
+Para garantir sua sobrevivência até as 06:00, siga esta rota tática estruturada durante cada rodada.
+
+<Steps>
+  <Step num="1" title="Surgir e Localizar o Grupo">
+    Assim que a rodada começar, siga o grupo principal de jogadores. Há segurança em números, e os monstros costumam visar os jogadores isolados primeiro.
+  </Step>
+  <Step num="2" title="Subir em Estruturas Elevadas">
+    Localize a torre alta, andaime de acampamento ou formação rochosa grande mais próxima. Suba imediatamente para o ponto mais alto disponível.
+  </Step>
+  <Step num="3" title="Monitorar a Patrulha do Gigante">
+    Ouça passos pesados e vidros quebrando. Observe o nível do chão para rastrear o caminho do monstro sem se expor.
+  </Step>
+  <Step num="4" title="Executar Esconder-se em Cantos se Estiver Encurralado">
+    Se o gigante subir até a sua posição, desça com cuidado para uma plataforma inferior ou esconda-se atrás de um canto escuro de rocha. Fique completamente imóvel.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Sucesso">
+Permanecer completamente imóvel atrás de uma grande rocha pode fazer com que o monstro passe direto por você, mesmo que esteja procurando por perto.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tipos de Monstros e Itens da Loja">
+
+Sobreviver às rodadas concede a você pontos que podem ser gastos na loja do lobby. Entender o que você está enfrentando e quais recompensas pode desbloquear adiciona profundidade às suas partidas de sobrevivência.
+
+### Monstros Conhecidos e Inventário da Loja
+
+| Nome do Monstro/Item | Tipo | Descrição | Custo/Status |
+|---|---|---|---|
+| Locus | Monstro / Skin | Uma criatura grotesca com braços longos e finos | Compra na Loja |
+| Guilt | Monstro / Skin | Uma variante gigante aterrorizante e altamente agressiva | Compra na Loja |
+| Gigante Padrão | Monstro | A ameaça de perseguição padrão com um amplo ataque de varredura | Padrão |
+
+| Tipo de Estratégia | Prós | Contras | Eficácia |
+|---|---|---|---|
+| Acampar em Torres | Seguro contra varreduras no chão, visão clara do mapa | Vulnerável se o monstro subir | ★★★★☆ |
+| Esconder-se em Cantos de Rocha | Alta furtividade, fácil de perder o agro | Baixa visibilidade, preso se for encurralado | ★★★☆☆ |
+| Kiting Ativo | Distrai o monstro, salva companheiros de equipe | Risco extremamente alto, drena stamina | ★★☆☆☆ |
+
+<Callout type="info" title="Mecânicas do Lobby">
+Você pode assistir aos jogadores restantes após morrer para estudar suas rotas de fuga e aprender melhores esconderijos para as rodadas seguintes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação Definitiva de Sobrevivência">
+
+Use esta lista de verificação para acompanhar seu progresso e garantir que está executando as melhores estratégias durante cada partida.
+
+<Checklist
+  id="survivor-milestones"
+  title="Marcos de Sobrevivência da Partida:"
+  items={[
+    "Localizar e subir na torre mais alta nos primeiros 30 segundos da rodada",
+    "Conservar com sucesso 100% da stamina até que o monstro vise a sua área",
+    "Sobreviver a um ciclo noturno completo até as 06:00 sem ligar sua lanterna",
+    "Acumular pontos suficientes para comprar o Locus ou Guilt na loja do lobby"
+  ]}
+/>
+
+<Callout type="tip" title="Conselho Final">
+Não provoque o monstro nem fique perto das bordas para zombar dele. O alcance vertical do gigante pode, ocasionalmente, atingir jogadores que estão muito perto da borda de uma plataforma.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para correr no jogo?",
+    answer: "A corrida está mapeada para a tecla E por padrão no PC. Certifique-se de pressioná-la e segurá-la apenas quando precisar de uma rápida explosão de velocidade para escapar do gigante."
+  },
+  {
+    question: "Qual é a melhor estratégia neste guia de sobrevivência de Gigantes Escondidos?",
+    answer: "A estratégia mais confiável é garantir um lugar em um terreno elevado, como uma torre ou rocha elevada, desligar sua lanterna e permanecer agachado ou imóvel para evitar chamar a atenção do monstro."
+  },
+  {
+    question: "Quando a rodada termina?",
+    answer: "A rodada termina quando o relógio atinge as 06:00. Se você ainda estiver vivo a essa altura, vencerá a rodada e ganhará pontos."
+  },
+  {
+    question: "O gigante pode subir escadas para alcançar os jogadores?",
+    answer: "Sim, o gigante pode subir em plataformas elevadas e torres. Se você vir o gigante subindo a sua escada, prepare-se para descer para um nível inferior ou encontrar um esconderijo atrás de obstáculos do cenário."
+  }
+]} />
+
+</Section>

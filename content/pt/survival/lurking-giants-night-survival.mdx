@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sobrevivência Noturna em Gigantes Escondidos: Guia Passo a Passo de Evasão e Esconderijo",
+  description: "Domine a escuridão em Gigantes Escondidos. Aprenda a sobreviver à noite, localizar zonas seguras, utilizar esconderijos avançados e escapar de monstros massivos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Night+Survival+Guide",
+  date: "2026-07-12",
+  author: "Equipe da Wiki de Gigantes Escondidos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Sobrevivência noturna em Gigantes Escondidos**: O objetivo principal é sobreviver até que o relógio do jogo marque **10:00 AM**.
+- **Dinâmica da fogueira**: A fogueira central funciona como um ponto de encontro de alto risco onde os jogadores se reúnem, mas atrai facilmente monstros ativos.
+- **Mecânicas de esconderijo**: Esconderijos tradicionais como tendas são armadilhas mortais de alto risco; o terreno natural oferece uma proteção muito superior.
+- **Regra de mobilidade**: Ficar parado em campo aberto garante detecção; movimentos constantes e calculados são necessários para quebrar a linha de visão do monstro.
+- **Taxa de sobrevivência**: As taxas de sobrevivência em lobbies públicos são baixas, tornando essenciais o movimento coordenado da equipe e rotas de furtividade solo.
+</Callout>
+
+<Section icon={Shield} title="Fundamentos de Sobrevivência Noturna em Gigantes Escondidos">
+
+A sobrevivência nesta experiência de terror exige uma compreensão profunda das mecânicas de tempo, dos perigos ambientais e dos comportamentos dos monstros. Ao contrário dos jogos de sobrevivência padrão, você não pode lutar contra as entidades massivas que rondam a escuridão. Suas únicas ferramentas são a furtividade, o posicionamento e a agilidade.
+
+**Destaques do Vídeo:**
+- **A Armadilha da Fogueira**: Por que correr direto para o fogo central pode levar a uma eliminação precoce.
+- **Mecânicas de Tendas**: Uma demonstração de por que se esconder dentro de tendas falha contra entidades gigantes.
+- **Escalada de Rochas**: Utilizar terreno vertical para quebrar a busca de rotas da IA.
+- **Dicas de Espectador**: Analisar jogadores sobreviventes para traçar rotas de fuga ideais.
+
+<YouTubeEmbed videoId="dr6QdVjamXw" title="EU SOBREVIVI AOS GIGANTES ESCONDIDOS À NOITE" />
+
+Para sobreviver à noite, você deve gerenciar sua visibilidade e níveis de ruído. Os monstros usam tanto a detecção visual quanto pistas sonoras para rastrear os jogadores. Aterrissar de quedas altas ou correr constantemente cria vibrações de ruído que atraem os gigantes diretamente para a sua localização.
+
+| Fase do Jogo | Intervalo de Tempo | Nível de Perigo | Objetivo Principal |
+|---|---|---|---|
+| **Início da Noite** | 18:00 - Meia-noite | Médio | Localizar esconderijos em locais altos, evitar a fogueira central |
+| **Pico da Meia-noite** | Meia-noite - 04:00 | Alto | Monitorar rotas de patrulha dos monstros, rotacionar posições silenciosamente |
+| **Fim da Noite** | 04:00 - 08:00 | Muito Alto | Evitar campos abertos, utilizar fendas nas rochas |
+| **Fuga ao Amanhecer** | 08:00 - 10:00 | Extremo | Correr para as zonas seguras finais, quebrar a linha de visão |
+
+<Callout type="warning" title="Fique Alerta">
+A fogueira central é altamente visível, tornando-se o local mais tentador para os jogadores se reunirem. No entanto, os gigantes frequentemente patrulham essa zona primeiro. Nunca permaneça perto do fogo por mais de alguns segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Esconderijos e Navegação no Mapa">
+
+O mapa do jogo apresenta várias estruturas ambientais distintas. Saber quais áreas oferecem proteção real e quais são ilusões visuais é a diferença entre sobreviver e levar um susto instantâneo.
+
+<CardGrid cols={3}>
+  <Card title="A Área da Fogueira">
+    - **Alta Visibilidade**: Facilmente avistado por gigantes rondando.
+    - **Alto Risco**: Frequentemente se torna uma zona de morte caótica.
+    - **Utilidade**: Bom apenas para orientação rápida.
+  </Card>
+  <Card title="Tendas e Cabanas">
+    - **Falsa Segurança**: Os gigantes podem alcançar o interior facilmente.
+    - **Sem Rota de Fuga**: Ficar encurralado significa morte instantânea.
+    - **Utilidade**: Evite entrar nelas completamente.
+  </Card>
+  <Card title="Fendas de Rocha e Penhascos">
+    - **Terreno Alto**: Quebra a movimentação padrão dos monstros.
+    - **Baixa Visibilidade**: Texturas escuras se misturam com os avatares dos jogadores.
+    - **Utilidade**: Altamente recomendado para sobrevivência a longo prazo.
+  </Card>
+</CardGrid>
+
+Ao navegar pelo mapa, priorize o movimento vertical. A movimentação da IA dos gigantes tem dificuldades com ângulos verticais íngremes. Subir em encostas de rocha irregulares permite que você observe as rotas de patrulha e planeje sua próxima fase de movimento com segurança.
+
+| Localização | Avaliação de Segurança | Rotas de Fuga | Melhor Estratégia |
+|---|---|---|---|
+| **Fendas de Rocha** | ★★★★★ | Múltiplas | Andar agachado até a parte mais profunda das texturas das rochas |
+| **Topo dos Penhascos** | ★★★★☆ | Pular para baixo | Ficar perto da borda para pular se um gigante subir |
+| **Borda da Floresta** | ★★★☆☆ | Linear | Usar troncos de árvores para quebrar a linha de visão |
+| **Tendas** | ★☆☆☆☆ | Nenhuma | Não entre; os gigantes vasculham essas zonas regularmente |
+
+<Callout type="tip" title="Dica Profissional">
+Ajuste as roupas do seu avatar para cores escuras e foscas antes de entrar em uma partida. Acessórios brilhantes ou luminosos fazem você se destacar no escuro, tornando inúteis os bons esconderijos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Sobrevivência Noturna Passo a Passo">
+
+Executar uma partida de sobrevivência impecável requer disciplina rígida. Siga esta progressão passo a passo para maximizar sua taxa de sobrevivência do anoitecer ao amanhecer.
+
+<Steps>
+  <Step num="1" title="Dispersão Imediata">
+    Assim que a rodada começar, corra para longe do grupo de spawn. Não siga a multidão até a fogueira, pois grandes grupos geram pegadas sonoras massivas que atraem gigantes instantaneamente.
+  </Step>
+  <Step num="2" title="Garantir Terreno Alto">
+    Localize a formação rochosa íngreme mais próxima. Use as mecânicas de salto para escalar as bordas irregulares. Posicione-se em uma saliência que dê vista para o vale central, mas que o mantenha protegido por trás.
+  </Step>
+  <Step num="3" title="Observar e Rotacionar">
+    Observe o movimento dos gigantes abaixo. Se um gigante começar a se mover em direção ao seu penhasco, não entre em pânico. Espere até que ele comece a subir, então pule com segurança atrás dele e corra para a crista oposta.
+  </Step>
+  <Step num="4" title="Furtividade nas Horas Finais">
+    A partir das 06:00, os gigantes tornam-se mais agressivos. Ande agachado pelas fendas das rochas para minimizar o som. Mantenha a câmera voltada para cima para detectar ameaças que se aproximam mais cedo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sobrevivência Alcançada">
+Sobreviver até as 10:00 AM recompensa você com pontos de sobrevivência. Use esses pontos na loja do lobby para comprar itens utilitários que ajudam na velocidade e distração nas rodadas seguintes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Evasão de Gigantes Rondantes">
+
+Se um gigante avistar você, a furtividade não é mais uma opção. Você deve fazer a transição para a evasão ativa. Os gigantes se movem mais rápido do que a sua velocidade de caminhada padrão, o que significa que correr em linha reta fará com que você seja pego.
+
+Para escapar com sucesso de um gigante, você deve utilizar o ambiente para quebrar o rastreamento dele. Curvas fechadas ao redor de grandes pedregulhos, pular de penhascos e desviar por entre grupos densos de árvores forçarão a IA do monstro a recalcular seu caminho, dando a você segundos preciosos para encontrar um novo esconderijo.
+
+| Manobra de Evasão | Execução | Taxa de Sucesso | Nível de Risco |
+|---|---|---|---|
+| **Queda de Penhasco** | Pular de uma saliência alta para o chão abaixo | Alta | Médio (Potencial de dano de queda) |
+| **Contorno de Pedregulho** | Correr em círculos apertados ao redor de uma rocha massiva | Média | Alto (Requer controle preciso da câmera) |
+| **Desvio entre Árvores** | Correr por áreas de floresta densa diagonalmente | Alta | Baixo (Alta cobertura visual) |
+
+<Callout type="info" title="Aprendizado como Espectador">
+Se você morrer cedo, não saia da partida. Assista aos jogadores de nível mais alto no seu lobby. Observe suas rotas de movimento, como eles reagem a encontros próximos e as fendas específicas nas rochas que usam para se esconder.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Sobrevivência Noturna">
+
+Acompanhe seu progresso e melhore suas habilidades de furtividade buscando estes marcos principais de sobrevivência durante suas sessões de jogo.
+
+<Checklist
+  id="survival-challenges"
+  title="Objetivos de Progressão Furtiva:"
+  items={[
+    "Sobreviver até as 06:00 sem ser avistado nenhuma vez",
+    "Escalar com sucesso o pico de rocha mais alto do mapa",
+    "Escapar da perseguição de um gigante por mais de 30 segundos",
+    "Alcançar uma sobrevivência bem-sucedida às 10:00 AM em um lobby cheio"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a chave principal para a sobrevivência noturna em Gigantes Escondidos?",
+    answer: "A chave é evitar áreas de alto tráfego, como a fogueira e as tendas, utilizar fendas de rocha em locais altos e monitorar constantemente as rotas de patrulha dos monstros para quebrar a linha de visão."
+  },
+  {
+    question: "Você pode se esconder dentro das tendas para escapar dos monstros?",
+    answer: "Não. As tendas são locais altamente perigosos. Os gigantes podem facilmente alcançar o interior ou atravessar as paredes finas para eliminar os jogadores que se encurralam lá dentro."
+  },
+  {
+    question: "Como escapar de um gigante quando ele começa a perseguir você?",
+    answer: "Não corra em linha reta. Faça curvas fechadas ao redor de grandes pedregulhos, desvie por entre árvores densas ou pule de penhascos altos para quebrar a IA de busca de rotas do gigante."
+  },
+  {
+    question: "A que horas a noite termina no jogo?",
+    answer: "Você deve sobreviver até que o relógio do jogo marque 10:00 AM para concluir a rodada com sucesso e ganhar recompensas de sobrevivência."
+  }
+]} />
+
+</Section>

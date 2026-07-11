@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Última Versão de Lurking Giants: Guia de Sobrevivência e Mecânicas",
+  description: "Domine a última versão de lurking giants com nosso guia de sobrevivência abrangente, análise de monstros e dicas estratégicas de navegação pelo mapa para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Lurking+Giants+Guide",
+  date: "2026-07-12",
+  author: "Equipe Wiki de Lurking Giants"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A última versão de Lurking Giants** introduz uma IA aprimorada para monstros como Locus e Guilt, tornando o sigilo mais crítico do que nunca.
+- **A mecânica de corrida** está mapeada para a tecla E por padrão, uma escolha única que exige ajuste de memória muscular para veteranos do Roblox.
+- **Posições elevadas**, como torres e grandes formações rochosas, oferecem a melhor visibilidade, mas podem se tornar armadilhas se o gigante avistar você.
+- **O ciclo noturno** normalmente termina entre 6:00 AM e 7:00 AM, exigindo que os jogadores gerenciem a bateria da lanterna e o fôlego com cuidado.
+- **Sinais ambientais**, como vidros quebrando ou passos pesados e rítmicos, são os principais indicadores da proximidade de um gigante em mapas escuros.
+</Callout>
+
+<Section icon={Map} title="Jogabilidade Core e Fundamentos de Sobrevivência">
+
+A **última versão de lurking giants** entrega uma experiência de terror psicológico dentro do Roblox que enfatiza a atmosfera, a escala e o medo primordial de ser caçado por algo massivo. Ao contrário dos jogos de terror tradicionais onde as ameaças têm tamanho humano, os gigantes neste título utilizam seu alcance imenso e percepção ambiental para encurralar os jogadores. Compreender a interface básica e a movimentação é o primeiro passo para sobreviver à sua primeira noite na selva.
+
+**Destaques do Vídeo:**
+- Demonstra a escala aterrorizante dos gigantes em comparação com os avatares dos jogadores.
+- Destaca a importância da mecânica de corrida (tecla E) durante as perseguições.
+- Mostra a eficácia de se esconder atrás de objetos do cenário, como rochas.
+- Apresenta uma prévia do menu da loja com monstros como Locus e Guilt.
+
+<YouTubeEmbed videoId="c3lV5YlfDQQ" title="ROBLOX LURKING GIANTS IS TRULY TERRIFYING..." />
+
+A sobrevivência depende da sua habilidade de interpretar sinais áudio-visuais. O jogo utiliza um sistema de névoa densa e escuridão que limita a visibilidade, forçando os jogadores a dependerem de suas lanternas. No entanto, usar uma lanterna é uma faca de dois gumes; embora ajude você a enxergar o terreno, também o torna um alvo brilhante para qualquer gigante que esteja patrulhando a área.
+
+| Recurso | Descrição | Tecla / Valor |
+| :--- | :--- | :--- |
+| **Corrida** | Aumenta a velocidade de movimento ao custo de fôlego | Tecla E |
+| **Lanterna** | Fornece iluminação local em áreas escuras | Clique / Slot de Ferramenta |
+| **Shift Lock** | Essencial para movimentos precisos e para olhar para trás | Tecla Shift |
+| **Fim da Rodada** | O momento em que os sobreviventes vencem a partida | 6:00 AM - 7:00 AM |
+| **Tamanho do Lobby** | Número de jogadores em uma partida padrão | Grande (Mais de 20 Jogadores) |
+
+<Callout type="warning" title="Gerenciamento de Fôlego">
+Não segure a tecla de corrida (E) continuamente. A última versão pune os jogadores que esgotam seu fôlego cedo demais, deixando-os andando devagar quando um gigante realmente inicia uma perseguição. Economize sua corrida para quebrar a linha de visão do gigante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análise dos Gigantes: Locus, Guilt e Entidades">
+
+Na **última versão de lurking giants**, as entidades que você enfrenta não são meros bots sem mente. Elas possuem comportamentos e atributos físicos distintos que ditam como você deve se esconder. As duas entidades mais proeminentes que atualmente dominam o meta são Locus e Guilt. Cada uma exige uma abordagem psicológica diferente para ser evitada com sucesso.
+
+<CardGrid cols={2}>
+  <Card title="A Entidade Locus">
+    - **Visual**: Apresenta braços longos e esguios e um torso distorcido.
+    - **Comportamento**: Extremamente rápido assim que foca em um alvo.
+    - **Fraqueza**: Tem dificuldades com verticalidade e cantos fechados.
+    - **Nível de Ameaça**: Alto (★★★★☆)
+  </Card>
+  <Card title="A Entidade Guilt">
+    - **Visual**: Uma figura massiva e colossal com uma presença aterrorizante.
+    - **Comportamento**: Usa passos pesados para intimidar e fazer os sobreviventes saírem do esconderijo.
+    - **Fraqueza**: Velocidade de curva mais lenta em comparação ao Locus.
+    - **Nível de Ameaça**: Extremo (★★★★★)
+  </Card>
+</CardGrid>
+
+A variante de \"braços longos\" vista em gameplays recentes é particularmente perigosa porque pode alcançar jogadores em plataformas elevadas que antes pareciam seguras. Essa mudança na **última versão de lurking giants** forçou os jogadores a repensarem a estratégia de \"camperar em torres\". Se um gigante vir você em uma torre, ele frequentemente pode golpear o topo ou até mesmo começar a subir, dependendo da geometria do mapa.
+
+| Nome da Entidade | Ataque Principal | Alcance | Velocidade |
+| :--- | :--- | :--- | :--- |
+| **Locus** | Eliminação Instantânea / Agarrar | Longo | Rápido |
+| **Guilt** | Pisada em Área / Esmagar | Médio | Média |
+| **Stalker** | Emboscada Furtiva | Curto | Muito Rápido |
+| **Colossus** | Destruição Ambiental | Massivo | Lento |
+
+<Callout type="tip" title="Inteligência dos Monstros">
+Os gigantes frequentemente patrulham ou cercam áreas de alto tráfego. Se você vir um gigante rondando perto de um esconderijo popular, não se mova. A IA deles é programada para detectar movimentos mais facilmente do que jogadores parados, mesmo que você esteja parcialmente visível.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotina de Sobrevivência Passo a Passo">
+
+Sobreviver a uma rotação completa na **última versão de lurking giants** exige uma abordagem disciplinada em relação ao ciclo noturno. Muitos jogadores morrem nas primeiras duas horas (tempo do jogo) porque correm para os esconderijos mais óbvios, que são exatamente onde os jogadores experientes controlando os gigantes procuram primeiro.
+
+<Steps>
+  <Step num="1" title="Reconhecimento do Spawn Inicial">
+    Quando a rodada começar às 8:00 AM (no jogo), observe imediatamente o ponto de spawn do gigante. Não corra diretamente em linha reta para longe; em vez disso, mova-se lateralmente para encontrar um local com múltiplas rotas de fuga.
+  </Step>
+  <Step num="2" title="Gerenciamento de Luz">
+    Mantenha sua lanterna desligada pelas primeiras três horas. Use a luz da lua ou a iluminação ambiente do lobby para navegar. Só ligue a lanterna brevemente se não tiver certeza do terreno à frente, como a borda de um penhasco ou a entrada de um edifício.
+  </Step>
+  <Step num="3" title="Relocalização no Meio da Noite">
+    Por volta das 2:00 AM, o gigante geralmente começa um padrão de busca mais agressivo. Se você estiver em um local lotado (como a torre principal), considere se mudar para uma área mais isolada, como o acampamento ou atrás de grandes rochas na borda do mapa.
+  </Step>
+  <Step num="4" title="O Esforço Final">
+    Das 5:00 AM às 6:00 AM, fique completamente imóvel. Os gigantes frequentemente usarão suas habilidades repetidamente ou correrão pelo mapa em uma tentativa desesperada de encontrar sobreviventes. Se for avistado agora, use todo o seu fôlego restante para alcançar a zona de extração ou um ponto de glitch.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Sinais Sonoros">
+Fique atento ao som de \"vidro quebrando\". Isso geralmente indica que um gigante destruiu parte do cenário ou ativou uma armadilha, revelando a localização precisa da ameaça sem que você precise olhar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navegação pelo Mapa e Esconderijos">
+
+Os mapas na **última versão de lurking giants** são projetados com a verticalidade em mente. Enquanto o nível do chão está cheio de destroços e névoa, as elevações mais altas oferecem uma visão mais clara dos movimentos do gigante. No entanto, ficar no alto destaca sua silhueta contra o céu.
+
+| Tipo de Local | Prós | Contras | Classificação de Segurança |
+| :--- | :--- | :--- | :--- |
+| **Torre de Vigilância** | Excelente visibilidade de 360 graus | Muito óbvia, difícil de escapar | 2/5 |
+| **Formações Rochosas** | Camuflagem natural, difícil de alcançar | Rotas de fuga limitadas | 4/5 |
+| **Acampamento** | Perfil baixo, muitos pequenos obstáculos | Visibilidade ruim do gigante | 3/5 |
+| **Outdoor / Placas** | Não convencional, frequentemente ignorado | Alto risco de queda | 3/5 |
+| **Borda da Floresta** | Cobertura densa, fácil de desaparecer | Difícil de navegar no escuro | 5/5 |
+
+Navegar pela \"Borda da Floresta\" é atualmente a estratégia mais eficaz para jogadores solo. A folhagem densa quebra a linha de visão do gigante, e o terreno irregular dificulta a navegação das grandes hitboxes do gigante entre as árvores. Na **última versão de lurking giants**, os desenvolvedores adicionaram mais elementos interativos a essas florestas, incluindo pequenas cabanas que podem fornecer cobertura temporária.
+
+<Callout type="success" title="A Estratégia da 'Rocha'">
+Esconder-se atrás de uma rocha grande e girar em torno dela conforme o gigante passa costuma ser mais eficaz do que se esconder dentro de um edifício. Edifícios são \"armadilhas mortais\" se o gigante decidir patrulhar a única saída.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão e Recompensas da Loja">
+
+Conforme você sobrevive às rodadas na **última versão de lurking giants**, você ganha moedas que podem ser gastas na loja do jogo. Esse sistema de progressão permite desbloquear novas skins de monstros, melhorias para a lanterna e itens cosméticos que demonstram seu status de veterano.
+
+<Checklist
+  id="progression-milestones"
+  title="Objetivos de Sobrevivência para 2026:"
+  items={[
+    "Sobreviver a 10 rodadas consecutivas sem morrer",
+    "Desbloquear a skin do monstro Locus na loja",
+    "Alcançar o Nível de Jogador 25 para acessar mapas Hardcore",
+    "Encontrar o easter egg oculto de créditos 'Gentoy' na floresta",
+    "Atrair com sucesso um gigante para longe de um grupo de companheiros de equipe"
+  ]}
+/>
+
+A loja é atualizada frequentemente, muitas vezes introduzindo monstros sazonais que ficam disponíveis apenas por tempo limitado. Para os jogadores que desejam jogar como o gigante, adquirir os pacotes \"Guilt\" ou \"Locus\" é essencial para partidas de alto nível, já que o gigante básico tem alcance limitado e tempos de recarga mais lentos.
+
+| Nome do Item | Categoria | Custo (Créditos) | Efeito |
+| :--- | :--- | :--- | :--- |
+| **Skin do Locus** | Monstro | 1.500 | Desbloqueia o Locus para uso do jogador |
+| **Bateria de Alta Capacidade** | Melhoria | 500 | Aumenta a duração da lanterna |
+| **Botas Silenciosas** | Vantagem | 1.200 | Reduz o ruído dos passos |
+| **Bastão Luminoso** | Ferramenta | 200 | Fonte de luz temporária (descartável) |
+
+<Callout type="tip" title="Acumulando Créditos">
+Vencer como sobrevivente rende a maior quantidade de créditos, mas você também pode obter pequenas quantias \"distraindo\" o gigante. Se o gigante perseguir você por uma certa duração e você sobreviver, receberá um bônus de 'Audácia' (Boldness).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como eu corro na última versão de lurking giants?",
+    answer: "Por padrão, a corrida está mapeada para a tecla 'E' no seu teclado. Certifique-se de não estar segurando uma ferramenta que anule esse atalho."
+  },
+  {
+    question: "Qual é o melhor monstro para usar da loja?",
+    answer: "Atualmente, o Locus é considerado o melhor para iniciantes devido ao seu longo alcance e velocidade de movimento rápida, enquanto o Guilt é melhor para jogadores experientes que sabem encurralar os sobreviventes."
+  },
+  {
+    question: "A lanterna atrai os gigantes?",
+    answer: "Sim, os gigantes conseguem ver a luz da sua lanterna através da névoa. Recomenda-se usá-la apenas quando for absolutamente necessário para a navegação."
+  },
+  {
+    question: "A que horas a rodada termina oficialmente?",
+    answer: "A maioria das rodadas na última versão de lurking giants termina entre 6:00 AM e 7:00 AM no horário do jogo, momento em que todos os sobreviventes restantes vencem."
+  }
+]} />
+
+</Section>

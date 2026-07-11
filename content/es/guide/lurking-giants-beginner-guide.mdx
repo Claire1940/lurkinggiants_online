@@ -1,0 +1,218 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para principiantes de Gigantes al acecho: Consejos de supervivencia y mecánicas",
+  description: "Domina lo básico de Gigantes al acecho con nuestra guía para principiantes de 2026. Aprende tácticas de supervivencia, gestión de recursos y cómo unirte a la comunidad oficial.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Lurking+Giants+Beginner+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Gigantes al acecho",
+  keywords: "Gigantes al acecho, guía para principiantes, supervivencia, mecánicas, Discord oficial"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Dominar las estrategias de la **guía para principiantes de Gigantes al acecho** para sobrevivir a encuentros con entidades masivas.
+- **El Sigilo es Primero**: Evita el combate directo al principio del juego; usa la cobertura del entorno y camina agachado.
+- **Gestión de Recursos**: Prioriza la recolección de madera y sílex para fabricar herramientas básicas antes del anochecer.
+- **Conexión con la Comunidad**: Únete al Discord oficial para recibir actualizaciones en tiempo real y apoyo de la comunidad.
+- **Control de Resistencia**: Nunca dejes que tu barra de resistencia llegue a cero, ya que esto impide esprintar durante escapes de emergencia.
+</Callout>
+
+<Section icon={Users} title="Integración y Configuración de la Comunidad">
+
+Comenzar tu viaje en el mundo de las entidades masivas requiere más que solo habilidades dentro del juego; requiere mantenerse conectado con la base de jugadores. Los desarrolladores lanzan frecuentemente correcciones y actualizaciones de equilibrio que pueden alterar significativamente tu estrategia de supervivencia. Unirse a las plataformas oficiales de la comunidad es el primer paso para cualquier jugador que siga una **guía para principiantes de Gigantes al acecho**.
+
+**Puntos destacados del video:**
+- **Acceder a Discord**: Navega al menú de unión a servidores dentro de la aplicación de Discord.
+- **Códigos de invitación**: Usa el código alfanumérico específico proporcionado en las descripciones oficiales.
+- **Verificación del servidor**: Completa la configuración básica para desbloquear los canales de guías de la comunidad.
+
+<YouTubeEmbed videoId="e32u80Z6FjM" title="Cómo unirse al servidor de Discord de Gigantes al acecho" />
+
+| Característica | Beneficio para la Comunidad | Método de Acceso |
+| :--- | :--- | :--- |
+| **Discord Oficial** | Notas del parche, Reporte de errores, LFG | Enlace/Código de invitación |
+| **Base de Datos Wiki** | Estadísticas de objetos, Coordenadas del mapa | Navegador Web |
+| **Ticket de Soporte** | Recuperación de cuenta, Ayuda técnica | Discord/Correo electrónico |
+
+<Callout type="tip" title="Mantente Actualizado">
+El servidor de Discord es la forma más rápida de enterarse de los "Eventos de Acecho", que son jefes de mundo por tiempo limitado que ofrecen materiales de fabricación únicos.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Mecánicas Básicas de Juego">
+
+Comprender los sistemas fundamentales es lo que separa a los supervivientes de las víctimas. En este mundo, los gigantes operan bajo rutinas complejas de IA que incluyen vista, oído y olfato. Tu interfaz proporciona información crítica sobre tus niveles de visibilidad y ruido. Dominar estos indicadores es el corazón de cualquier **guía para principiantes de Gigantes al acecho**.
+
+| Mecánica | Descripción | Impacto en la Supervivencia |
+| :--- | :--- | :--- |
+| **Medidor de Sigilo** | Indica qué tan visible eres | La alta visibilidad activa la agresividad del Gigante |
+| **Indicador de Ruido** | Muestra el sonido generado por el movimiento | Correr atrae a entidades cercanas |
+| **Barra de Resistencia** | Gobierna el esprint y la escalada | Una barra vacía provoca agotamiento |
+| **Exposición** | Efectos de la temperatura ambiental | Causa disminución de salud con el tiempo |
+
+El movimiento en este juego es deliberado. Debes aprender a diferenciar entre los pasos pesados de un "Coloso" y los movimientos más ligeros y erráticos de un "Explorador". Los Exploradores son la principal amenaza para los principiantes, ya que son más rápidos y propensos a investigar ruidos pequeños.
+
+<Callout type="warning" title="Gestión de la Resistencia">
+Evita el "Agotamiento de Resistencia". Si usas toda tu barra, tu personaje entrará en un estado de respiración pesada, aumentando significativamente el ruido que generas durante 5 segundos.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Caminar Agachado">
+    - **Ruido Reducido**: Muévete silenciosamente a través de la hierba alta.
+    - **Perfil Bajo**: Más difícil de detectar por los Gigantes a distancia.
+    - **Ritmo Lento**: No consume resistencia pero cubre menos terreno.
+  </Card>
+  <Card title="Esprintar">
+    - **Alta Velocidad**: Esencial para escapar de una persecución.
+    - **Mucho Ruido**: Alertará a todo en un radio de 50 metros.
+    - **Uso de Recursos**: Agota la resistencia rápidamente.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Guía de Supervivencia del Primer Día">
+
+Tus primeros 20 minutos son los más críticos. Empiezas sin nada y debes asegurar rápidamente herramientas básicas antes de que la primera patrulla de gigantes pase por tu zona de aparición. Sigue estos pasos para asegurar un comienzo exitoso.
+
+<Steps>
+  <Step num="1" title="Recolectar Materiales de Superficie">
+    Busca ramas sueltas y piedras pequeñas en el suelo. No intentes talar árboles hasta que hayas fabricado tu primera hacha de piedra, ya que golpear árboles causa daños menores a la salud y un ruido excesivo.
+  </Step>
+  <Step num="2" title="Fabricar Herramientas Básicas">
+    Abre tu menú de fabricación y prioriza el Hacha de Piedra y el Pico Rudimentario. Estos te permiten recolectar recursos 3 veces más rápido y con un 50% menos de ruido que usando tus manos.
+  </Step>
+  <Step num="3" title="Encontrar Terreno Elevado">
+    Localiza un acantilado o una ruina alta. Los gigantes tienen una visión vertical deficiente. Establecer un pequeño puesto de vigilancia temprano te ayuda a rastrear sus rutas de patrulla sin ser visto.
+  </Step>
+  <Step num="4" title="Asegurar Comida y Agua">
+    Encuentra una fuente de agua dulce. Las bayas son un alimento seguro para el principio del juego, pero proporcionan poca saciedad. Intenta atrapar presas pequeñas una vez que tengas los materiales para una trampa básica.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Sincronización de Patrullas">
+Los gigantes suelen seguir una rutina de rutas establecida. Observa a un gigante durante un ciclo completo (generalmente 3-5 minutos) para entender cuándo es seguro cruzar campos abiertos.
+</Callout>
+
+| Objeto Inicial | Materiales Requeridos | Uso Principal |
+| :--- | :--- | :--- |
+| **Hacha de Piedra** | 2 Madera, 1 Piedra | Talar madera, Defensa básica |
+| **Antorcha Rudimentaria** | 1 Madera, 1 Fibra | Visibilidad, Ahuyentar plagas pequeñas |
+| **Vendaje de Fibra** | 3 Fibra vegetal | Curar heridas menores |
+| **Garrote de Madera** | 4 Madera | Aturdir amenazas pequeñas |
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento y Niveles de Fabricación">
+
+A medida que progreses, tu equipo determinará en qué zonas puedes entrar de forma segura. La **guía para principiantes de Gigantes al acecho** enfatiza pasar del nivel de "Chatarra" al nivel de "Hierro" lo más rápido posible para resistir los peligros ambientales.
+
+| Nivel | Material | Durabilidad | Ideal Para |
+| :--- | :--- | :--- | :--- |
+| **Nivel 0** | Madera/Piedra | Baja | Primeros 30 minutos |
+| **Nivel 1** | Chatarra | Media | Exploración temprana |
+| **Nivel 2** | Hierro | Alta | Combate y Minería |
+| **Nivel 3** | Hueso de Gigante | Muy Alta | Supervivencia avanzada |
+
+Se requieren estaciones de fabricación para los objetos de mayor nivel. Debes construir una "Mesa de Trabajo" dentro de un área oculta —idealmente una cueva o un matorral denso— para evitar atraer la atención de los Gigantes errantes que se sienten atraídos por el sonido de los martillazos.
+
+<CardGrid cols={3}>
+  <Card title="Build de Superviviente">
+    - Enfoque en **Resistencia**
+    - Alta velocidad de movimiento
+    - Armadura ligera
+  </Card>
+  <Card title="Build de Tanque">
+    - Enfoque en **Salud**
+    - Armadura de hueso pesada
+    - Competencia con escudo
+  </Card>
+  <Card title="Build de Explorador">
+    - Enfoque en **Sigilo**
+    - Equipo de camuflaje
+    - Enfoque en arco y flecha
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Eficiencia">
+Lleva siempre un "Martillo de Reparación". Es más barato reparar una herramienta de Nivel 2 que fabricar una nueva desde cero.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de Encuentro con Gigantes">
+
+Inevitablemente, serás detectado. Saber cómo reaccionar puede significar la diferencia entre un escape por los pelos y una pérdida total del inventario. Los gigantes no son invencibles, pero al principio del juego deben tratarse como peligros ambientales más que como enemigos a combatir.
+
+**Tipos de Comportamiento de los Gigantes:**
+- **El Errante**: Se mueve sin rumbo fijo. Alta visión periférica pero bajo oído.
+- **El Centinela**: Se queda en un lugar protegiendo botín valioso. Oído muy agudo.
+- **El Rastreador**: Busca específicamente estructuras creadas por jugadores. Seguirá rastros de olor.
+
+| Acción | Resultado | Recomendado Cuando |
+| :--- | :--- | :--- |
+| **Congelarse** | Reduce la visibilidad en un 40% | El gigante está mirando en tu dirección |
+| **Distracción** | Lanza una piedra para crear ruido | Necesitas despejar un camino |
+| **Zambullida** | Movimiento rápido a posición prono | El gigante está a punto de golpear o pisotear |
+| **Bomba de Humo** | Rompe la línea de visión | Estás acorralado o atrapado |
+
+<Callout type="warning" title="Penalización por Muerte">
+Al morir, sueltas todos los "Objetos de la Mochila". Tus "Objetos del Cinturón" (herramientas y armas) permanecen contigo. ¡Mantén siempre tus herramientas más valiosas en las ranuras del cinturón!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Hitos para Principiantes">
+
+Para seguir tu progreso de manera efectiva, usa esta lista para asegurarte de haber cubierto todos los aspectos básicos de la **guía para principiantes de Gigantes al acecho**. Completar estas tareas te preparará para los desafíos de la mitad del juego.
+
+<Checklist
+  id="beginner-milestones"
+  title="Tus objetivos de la primera semana:"
+  items={[
+    "Fabricar un set completo de Armadura de Chatarra",
+    "Establecer una base con al menos 3 cofres de almacenamiento",
+    "Distraer con éxito a un Gigante usando un objeto arrojadizo",
+    "Encontrar y activar tu primer Pilar de Punto de Ruta",
+    "Unirse al Discord oficial para eventos de la comunidad",
+    "Sobrevivir un ciclo de noche completo sin morir"
+  ]}
+/>
+
+<Callout type="info" title="Consejo Final">
+No tengas miedo a fallar. Cada muerte en Gigantes al acecho otorga un "Punto de Conocimiento" que se puede usar para desbloquear mejoras permanentes de estadísticas en el menú principal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro el servidor de Discord mencionado en la guía para principiantes de Gigantes al acecho?",
+    answer: "Puedes unirte abriendo Discord, haciendo clic en el icono del más para 'Unirse a un servidor' e ingresando el código que se encuentra en la descripción oficial del juego o en los videos de la comunidad."
+  },
+  {
+    question: "¿Puedo matar a un Gigante siendo un principiante en solitario?",
+    answer: "Es extremadamente difícil y no se recomienda. Generalmente necesitas armamento de Nivel 3 y trampas para derrotar incluso a los tipos de Gigantes más pequeños."
+  },
+  {
+    question: "¿Cuál es la mejor manera de esconderse de un Gigante Rastreador?",
+    answer: "Cruza agua corriente como un río o arroyo para enmascarar tu olor, y usa una pasta de hierbas de 'Enmascaramiento de Olor' si tienes los materiales."
+  },
+  {
+    question: "¿Los Gigantes rompen las bases construidas por los jugadores?",
+    answer: "Sí, ciertos Gigantes como el 'Triturador' pueden destruir estructuras de madera. Es vital construir tu primera base en un lugar que esté naturalmente oculto."
+  }
+]} />
+
+</Section>

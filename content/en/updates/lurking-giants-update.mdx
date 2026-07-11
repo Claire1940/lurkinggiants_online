@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Lurking Giants Update: Survival Guide & Monster Mechanics",
+  description: "Master the terrifying lurking giants update. Learn essential survival strategies, giant movement patterns, and map navigation tips to win.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Lurking+Giants+Survival",
+  date: "2026-07-12",
+  author: "lurking giants Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Lurking Giants Update**: Introduces terrifying giant creatures with massive reach and aggressive patrol paths.
+- **Sprint Mechanic**: Use the **E key** to sprint to safety, but manage your stamina carefully.
+- **High Ground**: Climbing towers and rocks offers temporary safety, but watch out for long-armed reach.
+- **Victory Condition**: Survive the night until dawn arrives (6:00 AM to 7:00 AM) to secure a win.
+- **Lobby Shop**: Spend earned resources on creepy cosmetic items like Locus and Guilt.
+</Callout>
+
+<Section icon={Shield} title="Surviving the Terrifying Lurking Giants Update">
+
+The latest **lurking giants update** brings an intense atmosphere of dread and tension to the Roblox horror community. Players are dropped into pitch-black environments where massive, eerie creatures patrol the landscape. To survive the night, you must understand the core gameplay loop, master movement mechanics, and learn how to use the environment to your advantage. 
+
+**Video Highlights:**
+- **Atmospheric Dread**: The game features an incredibly dark, foggy, and eerie environment.
+- **Giant Threat**: The monster possesses massive reach, long arms, and can instant-kill players who wander into the open.
+- **Sprint Control**: Pressing the E key activates the sprint, which is vital for escaping close encounters.
+
+<YouTubeEmbed videoId="c3lV5YlfDQQ" title="ROBLOX LURKING GIANTS IS TRULY TERRIFYING..." />
+
+Survival depends heavily on your choice of movement and positioning. Standing in the open is a guaranteed way to get caught, while hiding in corners can save your life if the giant walks past.
+
+<Callout type="warning" title="Instant Death Danger">
+The giants in this update have a massive attack range. Getting caught in their path results in an instant kill with a highly graphic animation. Always keep your distance.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Map Navigation and Safe Zones">
+
+Navigating the maps during the **lurking giants update** requires a balance between staying hidden and keeping an eye on the monster's patrol path. Knowing where to run when the giant approaches is the difference between survival and spectator mode.
+
+<CardGrid cols={3}>
+  <Card title="The Watchtower">
+    - **High elevation** keeps you out of immediate ground patrol paths.
+    - **Limited escape routes** if the giant decides to climb up.
+    - Good for spotting the monster from afar.
+  </Card>
+  <Card title="The Campsite">
+    - **Abundant cover** with tents and natural rocks.
+    - **High risk** due to low visibility at ground level.
+    - Requires constant rotation to avoid being cornered.
+  </Card>
+  <Card title="The Rock Formations">
+    - **Excellent blind spots** where you can crouch and hide.
+    - **Giant pathing** often bypasses these tight corners.
+    - Harder for the giant's long arms to reach you.
+  </Card>
+</CardGrid>
+
+To help you choose the best spot, refer to this quick structural breakdown of the primary safe zones:
+
+| Safe Zone | Elevation | Escape Ease | Risk Level |
+|---|---|---|---|
+| **Tower Top** | High | Low | Medium |
+| **Rock Crevice** | Medium | Medium | Low |
+| **Ground Tents** | Low | High | High |
+| **Lobby Boundary** | None | None | Safe |
+
+<Callout type="tip" title="Hiding Strategy">
+If a giant is heading your way, squeeze into a tight corner behind a rock. Giants have poor peripheral vision and will often walk right past players who remain completely still.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Giant Behaviors and Movement Patterns">
+
+The giants are not mindless wanderers; they follow specific pathing algorithms that target player noise and light sources. Understanding how these entities operate will allow you to predict their movements.
+
+| Giant Type | Movement Speed | Special Traits | Danger Rating |
+|---|---|---|---|
+| **Locus** | Fast | Long arms, aggressive climbing | ★★★★☆ |
+| **Guilt** | Medium | Heavy footsteps, high detection | ★★★★★ |
+| **Base Giant** | Slow | Predictable patrol, easy to juke | ★★☆☆☆ |
+
+<Steps>
+  <Step num="1" title="Listen for Audio Cues">
+    Listen for heavy, rhythmic thuds and breaking glass. These sounds indicate the giant has spawned or is actively pursuing someone nearby.
+  </Step>
+  <Step num="2" title="Kill Your Light">
+    Do not keep your lantern out constantly. The light makes you highly visible from across the map, drawing the giant directly to your position.
+  </Step>
+  <Step num="3" title="Observe Patrol Paths">
+    Watch the giant's pathing from a safe distance. They tend to patrol central pathways before checking high-elevation structures.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Survival Reward">
+Surviving until 6:00 AM or 7:00 AM rewards you with points that can be spent in the lobby shop to unlock terrifying monster skins and cosmetic items.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Essential Survival Checklist">
+
+To ensure you survive every round in the **lurking giants update**, follow this checklist before and during every match.
+
+<Checklist
+  id="survival-checklist"
+  title="Match Survival Steps:"
+  items={[
+    "Turn off shift lock to ensure smooth camera movement.",
+    "Locate the nearest high-ground structure immediately upon spawning.",
+    "Keep your finger ready on the E key to sprint when a chase begins.",
+    "Extinguish your lantern when hiding in dark corners.",
+    "Avoid grouping up too closely with loud players who spam chat."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the sprint key in the lurking giants update?",
+    answer: "You can sprint by pressing and holding the E key on your keyboard. Manage your stamina, as you cannot run indefinitely."
+  },
+  {
+    question: "How do I win a round in Lurking Giants?",
+    answer: "You must survive the night until the clock reaches morning (typically between 6:00 AM and 7:00 AM) without getting caught by the giant."
+  },
+  {
+    question: "Can the giants climb ladders and towers?",
+    answer: "Yes, giants can navigate up towers and ladders. Do not assume you are 100% safe just because you are on high ground."
+  },
+  {
+    question: "What can I buy in the lobby shop?",
+    answer: "You can use your survival points to purchase creepy monster cosmetics and skins, such as the Locus and Guilt models."
+  }
+]} />
+
+</Section>

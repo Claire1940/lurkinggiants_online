@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Eye, Ghost } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sobrevivência Solo em Lurking Giants: Táticas Passo a Passo e Guia de Mapa",
+  description: "Domine a sobrevivência solo em lurking giants com o nosso guia de 2026. Aprenda navegação de mapa, mecânicas de furtividade e estratégias para evitar os gigantes e sobreviver à noite.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=Solo+Survival+Tactics",
+  date: "2026-07-12",
+  author: "Equipe Wiki de Lurking Giants",
+  keywords: "lurking giants, sobrevivência solo, guia de mapa, táticas de furtividade"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A sobrevivência solo em lurking giants** exige silêncio absoluto e domínio sobre suas fontes de luz para evitar detecção instantânea.
+- **A vantagem de terreno elevado** é crítica; use as torres perto do cemitério para avistar os pontos de surgimento dos gigantes logo cedo.
+- **Furtividade acima de velocidade** é a regra de ouro, pois os gigantes podem facilmente ultrapassar qualquer jogador assim que estabelecerem contato visual.
+- **Cobertura ambiental** como arbustos e cavernas oferece a única proteção confiável contra os ataques de esfaqueamento do gigante.
+- **O gerenciamento da lanterna** é a diferença entre a vida e a morte; nunca mantenha sua luz acesa ao se mover em campo aberto.
+</Callout>
+
+<Section icon={Eye} title="Mecânicas Principais da Sobrevivência Solo em lurking giants">
+
+Sobreviver sozinho neste ambiente de terror analógico exige uma compreensão profunda de como os gigantes percebem o mundo. Ao contrário do jogo em grupo, onde os jogadores podem distrair a entidade, a **sobrevivência solo em lurking giants** coloca todo o fardo da furtividade sobre os seus ombros. Os gigantes não são apenas grandes; eles são incrivelmente rápidos e possuem pistas audiovisuais perturbadoras que sinalizam sua chegada. Compreender as mecânicas de \"Guilt\" (Culpa) e \"Locust\" (Gafanhoto) é essencial para qualquer jogador que queira durar mais do que alguns minutos na escuridão.
+
+**Destaques do Vídeo:**
+- Observação das animações de esfaqueamento e explosão do gigante.
+- Demonstração de escalada de torres para visibilidade do mapa.
+- O perigo de usar lanternas de mão e de cabeça nas proximidades do monstro.
+- Táticas de sobrevivência envolvendo as regiões da cabana e do cemitério.
+
+<YouTubeEmbed videoId="QbcuXiSA5s4" title="The Lurking Giants Gameplay" />
+
+O jogo funciona em um ciclo de furtividade de alto risco. Se um gigante avistar você, o encontro geralmente termina em morte instantânea. Não há um sistema de combate tradicional para revidar; sua única \"arma\" é sua capacidade de permanecer invisível e inaudível. As imagens e o áudio perturbadores são projetados para desorientar você, tornando mais difícil rastrear a posição real do gigante em relação ao ruído atmosférico.
+
+| Mecânica | Descrição | Prioridade Solo |
+|----------|-------------|---------------|
+| **Detecção Visual** | Os gigantes rastreiam fontes de luz e movimentos em campos abertos. | Alta |
+| **Pistas Sonoras** | Gritos distorcidos e passos pesados sinalizam proximidade. | Crítica |
+| **Morte Instantânea** | Ser pego resulta em uma animação de esfaqueamento e morte. | Absoluta |
+| **Fontes de Luz** | Lanternas oferecem melhor visão, mas trazem maior risco. | Estratégica |
+
+<Callout type="warning" title="Risco de Detecção">
+No meta atual de 2026, os gigantes são programados para perseguir fontes de luz ativas. Se você vir as pernas do gigante ou ouvir o áudio de \"Guilt\", apague imediatamente sua lanterna e encontre um arbusto.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navegação Estratégica de Mapa e Esconderijos">
+
+O mapa foi projetado com vários pontos de referência distintos que oferecem diferentes graus de segurança. Para um jogador solo, saber quais áreas fornecem cobertura sólida (hard cover) versus cobertura suave (soft cover) é vital. O cemitério e as torres são os elementos mais proeminentes, mas as cabanas menores e as cavernas geralmente oferecem melhores perspectivas de sobrevivência a longo prazo.
+
+| Localização | Nível de Segurança | Características | Melhor Estratégia |
+|----------|--------------|----------|---------------|
+| **As Torres** | Moderado | Alta visibilidade, saídas limitadas. | Use para reconhecimento e saia rapidamente. |
+| **O Cemitério** | Baixo | Espaço aberto, surgimento frequente de gigantes. | Evite durante as horas de pico da noite. |
+| **A Cabana** | Alto | Paredes internas, múltiplos cômodos. | Melhor para se esconder quando o gigante estiver perto. |
+| **A Caverna** | Moderado | Cobertura profunda, visibilidade limitada. | Boa para quebrar a linha de visão do gigante. |
+| **O Mercado (Mart)** | Muito Baixo | Janelas de vidro, localização central. | Armadilha mortal; evite a todo custo. |
+
+Ao navegar entre esses pontos, mantenha-se nas bordas do mapa. O centro do mapa, particularmente ao redor da loja de compras ou \"Mart\", é um campo de extermínio aberto onde os gigantes podem avistar você de longe.
+
+<Callout type="tip" title="Reconhecimento da Torre">
+Suba na torre perto do cemitério no início da rodada. Isso permite que você veja exatamente onde o gigante surge sem correr perigo imediato. Assim que identificar o ponto de surgimento, mova-se na direção oposta, em direção à cabana ou à caverna.
+</Callout>
+
+</Section>
+
+<Section icon={Ghost} title="Estratégia de Furtividade: Gerenciamento de Luz e Som">
+
+Na **sobrevivência solo em lurking giants**, seus equipamentos podem ser seus maiores aliados ou seus piores inimigos. A escolha entre uma lanterna lampião (lantern) e uma lanterna de foco (flashlight) é mais do que apenas estética; ela altera significativamente o seu raio de detecção.
+
+<CardGrid cols={2}>
+  <Card title="A Lanterna Lampião">
+    - **Prós**: Menor intensidade de luz, brilho suave em 360 graus.
+    - **Contras**: Difícil de enxergar ameaças distantes.
+    - **Uso Solo**: Melhor para navegar em espaços internos, como a cabana.
+  </Card>
+  <Card title="A Lanterna de Foco">
+    - **Prós**: Feixe de alta intensidade, visibilidade de longo alcance.
+    - **Contras**: Funciona como um sinalizador para os gigantes; risco de detecção muito alto.
+    - **Uso Solo**: Use apenas para flashes rápidos para verificar os arredores.
+  </Card>
+</CardGrid>
+
+O som é igualmente importante. Embora o jogo atualmente não apresente um sistema complexo de geração de ruído para os jogadores, o áudio do gigante é o seu radar principal. O diálogo \"Locust\" e as pisadas pesadas são direcionais. Se o áudio estiver ficando mais alto, não corra; correr aumenta seu perfil visual. Em vez disso, encontre um arbusto e permaneça perfeitamente imóvel.
+
+| Ação | Status da Luz | Nível de Ruído | Risco de Detecção |
+|--------|--------------|-------------|----------------|
+| **Parado** | Desligada | Zero | Muito Baixo |
+| **Andando** | Desligada | Baixo | Baixo |
+| **Correndo** | Desligada | Moderado | Moderado |
+| **Andando** | Ligada | Baixo | Alto |
+| **Correndo** | Ligada | Moderado | Extremo |
+
+<Callout type="info" title="Camuflagem Ambiental">
+Os arbustos em lurking giants são mais do que apenas decoração. Entrar em um arbusto reduz significativamente a capacidade do gigante de travar a mira no modelo do seu personagem, mesmo que ele esteja relativamente perto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando a Sobrevivência Solo em lurking giants: Passo a Passo">
+
+Siga esta rotina otimizada para maximizar seu tempo de sobrevivência durante uma partida solo. Esta sequência foca no posicionamento no início do jogo e na furtividade no meio do jogo.
+
+<Steps>
+  <Step num="1" title="Reconhecimento do Surgimento Inicial">
+    Procure imediatamente a torre mais próxima. Não acenda sua luz. Suba até o último andar para observar o surgimento do gigante. Note a direção em que ele começa a patrulhar.
+  </Step>
+  <Step num="2" title="Desloque-se para uma Cobertura Sólida">
+    Mova-se em direção à cabana ou ao sistema de cavernas. Use o perímetro do mapa para evitar o cemitério central. Mantenha a luz apagada e mova-se em arrancadas curtas entre os arbustos.
+  </Step>
+  <Step num="3" title="Observação Estática">
+    Uma vez dentro de um edifício ou caverna, fique perto de um canto onde possa ver a entrada, mas permaneça oculto da vista externa. Escute atentamente as pistas sonoras de \"Guilt\" ou os passos pesados.
+  </Step>
+  <Step num="4" title="Evasão de Emergência">
+    Se o gigante entrar no seu prédio, não entre em pânico. Se houver um segundo andar, suba silenciosamente. Se não, espere o gigante passar pela porta e saia de fininho por trás dele.
+  </Step>
+  <Step num="5" title="Gerenciamento de Servidor">
+    Se você encontrar jogadores usando trapaças de velocidade (\"speed hacks\") ou se a rota do gigante bugar, considere trocar de servidor. A sobrevivência solo já é difícil o suficiente sem interferências externas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Objetivo de Sobrevivência">
+Seu objetivo não é \"derrotar\" o gigante, mas sobreviver ao cronômetro. Cada minuto passado em um arbusto ou em um canto escuro é uma vitória. A paciência é a habilidade mais valiosa do seu arsenal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação do Jogador Solo">
+
+Antes de partir para a sua próxima partida, certifique-se de seguir estas regras fundamentais para o jogo solo.
+
+<Checklist
+  id="solo-survival-checklist"
+  title="Regras Essenciais de Sobrevivência:"
+  items={[
+    "Sempre mantenha a lanterna apagada, a menos que seja absolutamente necessário",
+    "Identifique o ponto de surgimento do gigante nos primeiros 30 segundos",
+    "Evite a área central do Mart e as zonas abertas do cemitério",
+    "Use as torres para reconhecimento, mas nunca permaneça nelas por muito tempo",
+    "Fique atento às pistas sonoras específicas de Guilt e Locust",
+    "Mantenha-se perto das bordas do mapa para minimizar os ângulos de detecção"
+  ]}
+/>
+
+<Callout type="info" title="Estado Atual do Jogo">
+Até julho de 2026, o jogo está em fase beta/acesso antecipado. Espere que as rotas dos gigantes sejam agressivas e ocasionalmente imprevisíveis. Manter-se móvel entre esconderijos é mais seguro do que ficar no mesmo lugar durante toda a partida.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "É possível lutar ou revidar na sobrevivência solo de lurking giants?",
+    answer: "Não, atualmente não há mecânica de combate. O jogo é uma experiência pura de sobrevivência e terror, onde a furtividade e a evasão são suas únicas opções."
+  },
+  {
+    question: "Os gigantes enxergam você melhor se você estiver se movendo?",
+    answer: "Sim, o movimento em áreas abertas aumenta o seu perfil de visibilidade. Ficar parado nas sombras ou em arbustos é a maneira mais eficaz de evitar ser detectado."
+  },
+  {
+    question: "Qual é o melhor esconderijo no mapa?",
+    answer: "A cabana é geralmente considerada o melhor local devido às suas paredes internas e múltiplos cômodos, que podem quebrar a linha de visão do gigante de forma mais eficaz do que os pontos de referência ao ar livre."
+  },
+  {
+    question: "Por que o gigante me mata instantaneamente mesmo quando estou dentro de um prédio?",
+    answer: "Os gigantes às vezes conseguem alcançar através de janelas ou entrar por portas grandes. Certifique-se de estar bem encolhido em um canto e de que sua fonte de luz esteja completamente apagada."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+A atmosfera de lurking giants é projetada para fazer você entrar em pânico. Quanto mais você conseguir manter a calma e focar nas pistas sonoras, melhores serão suas chances de sobreviver à noite sozinho.
+</Callout>
+
+</Section>

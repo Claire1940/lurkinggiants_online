@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapas de Lurking Giants: Glitches Fora do Mapa e Pontos de Sobrevivência",
+  description: "Domine os mapas de Lurking Giants com nosso guia completo sobre glitches fora do mapa, pontos de sobrevivência e as principais diferenças entre os mapas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Lurking+Giants+Maps",
+  date: "2026-07-12",
+  author: "Equipe da Wiki de Lurking Giants",
+  keywords: "lurking giants, mapas, glitches, roblox, sobrevivência, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mapas de Lurking Giants** apresentam layouts únicos, mas a variante do mapa da Floresta (Forest) atualmente possui o exploit de sobrevivência mais poderoso.
+- **Mecânicas de glitch** permitem que os jogadores ignorem as fronteiras de colisão padrão e fiquem no topo do ambiente.
+- **A seleção do mapa** é crítica, pois glitches específicos só funcionam em variantes sem sistemas de cavernas.
+- **A eficiência de sobrevivência** aumenta exponencialmente assim que você domina o posicionamento vertical e os limites de pathfinding (busca de caminho) dos gigantes.
+- **Áreas elevadas** mantêm você completamente seguro contra ataques padrão de gigantes e loops de rastreamento.
+</Callout>
+
+<Section icon={Map} title="Exploit Fora do Mapa na Floresta">
+
+A sobrevivência em Roblox Lurking Giants depende muito do seu conhecimento do ambiente. Entre os vários mapas de Lurking Giants, o mapa da Floresta (Forest) é atualmente o mais discutido devido a um glitch de colisão que quebra o jogo. Este exploit permite que os jogadores subam diretamente no topo das fronteiras do mapa, colocando-os completamente fora do alcance dos gigantes. Ao utilizar este local, os jogadores podem facilmente acumular milhares de noites sobrevividas sem sofrer danos.
+
+No entanto, este truque só funciona em uma versão específica do mapa da Floresta. Se você entrar em uma partida e notar sistemas de cavernas por perto, as fronteiras de colisão impedirão que você execute o glitch. Você deve procurar pela variante sem cavernas do mapa da Floresta para realizar com sucesso a subida para fora dos limites.
+
+**Destaques do Vídeo:**
+- **Verificação do Mapa:** Como identificar a variante do mapa da Floresta sem cavernas.
+- **Navegação de Canto:** Encontrando a formação rochosa específica no canto esquerdo.
+- **Desvio de Colisão:** Ajustando o ângulo do seu personagem para deslizar pela fronteira.
+- **Acesso à Zona Segura:** Caminhando sobre o skybox do mapa para evitar o rastreamento da IA dos gigantes.
+
+<YouTubeEmbed videoId="rP_XfSDS010" title="Como subir no topo do mapa em Roblox Lurking Giants" />
+
+Para ajudá-lo a distinguir entre as diferentes variações do mapa da Floresta, consulte a tabela de comparação abaixo. Saber em qual layout você está economiza um tempo valioso durante os segundos iniciais de uma rodada.
+
+| Variante do Mapa | Cavernas Presentes | Status do Glitch | Classificação de Sobrevivência |
+| - | - | - | - |
+| Floresta (Padrão) | Sim | Corrigido / Inativo | Média |
+| Floresta (Variante com Glitch) | Não | Exploit Ativo | Máxima |
+| Floresta Sombria | Sim | Inativo | Baixa |
+
+<Callout type="warning" title="Aviso de Atualização dos Desenvolvedores">
+Exploits de colisão são altamente visíveis. Os desenvolvedores atualizam frequentemente as fronteiras dos mapas, o que significa que este método fora dos limites pode ser corrigido em atualizações futuras do jogo em 2026. Use-o para subir nos rankings de sobrevivência enquanto ele permanecer ativo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para Alcançar o Topo do Mapa">
+
+Passar pelas fronteiras de colisão nos mapas de Lurking Giants exige posicionamento preciso. O jogo verifica os modelos dos personagens contra ativos de rocha estáticos, mas certas lacunas permitem que avatares finos ou achatados deslizem pela caixa de fronteira. Siga esta progressão para alcançar a zona segura acima do skybox.
+
+<Steps>
+  <Step num="1" title="Verifique o Layout do Mapa">
+    Confirme que o mapa da Floresta gerado não contém cavernas. Se houver cavernas, reinicie ou espere pela próxima rotação de mapa.
+  </Step>
+  <Step num="2" title="Localize a Formação Rochosa no Canto">
+    Vá em direção ao canto distante do mapa onde a parede de rocha se curva para dentro. Procure por um arbusto verde denso situado ao lado de uma rocha grande e plana.
+  </Step>
+  <Step num="3" title="Encontre o Easter Egg do Envelope">
+    Olhe atentamente para a base da parede de rocha atrás do arbusto. Você deverá ver um pequeno envelope no chão, que marca o ponto exato de entrada.
+  </Step>
+  <Step num="4" title="Achate-se e Deslize">
+    Alinhe seu avatar completamente reto contra a fresta da rocha. Não tente correr diretamente para dentro; vire sua câmera de lado e deslize paralelamente à face da rocha para atravessar a fronteira.
+  </Step>
+</Steps>
+
+Depois de passar pela fresta, seu personagem passará para o topo da geometria do mapa. A partir daqui, você pode caminhar livremente ao longo do dossel verde superior. Os gigantes abaixo não conseguem encontrar um caminho para esta elevação, garantindo sua sobrevivência.
+
+| Fase do Passo | Dificuldade | Perigo Principal | Tempo Necessário |
+| - | - | - | - |
+| Fase 1: Localização | Baixa | Spawns de gigantes | 15 segundos |
+| Fase 2: Posicionamento | Média | Ficar preso | 10 segundos |
+| Fase 3: Deslize | Alta | Recuo de colisão | 5 segundos |
+
+<Callout type="tip" title="Dica de Escalonamento de Avatar">
+Usar um avatar padrão em blocos R6 ou R15 facilita a execução deste glitch. Pacotes volumosos ou acessórios largos podem aumentar a caixa de colisão do seu personagem, impedindo que você passe pela fresta estreita da rocha.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de Mapas e Classificações de Sobrevivência">
+
+Cada mapa no jogo desafia seu movimento e percepção de forma diferente. Enquanto o mapa da Floresta oferece a rota de sobrevivência mais fácil via exploits, outros mapas de Lurking Giants exigem jogo tático legítimo, caminhos inteligentes e utilização de terrenos elevados.
+
+<CardGrid cols={3}>
+  <Card title="Mapa da Floresta">
+    - **Compatibilidade com glitch** em variantes específicas
+    - Alta visibilidade para rastrear caminhos de gigantes
+    - Abundante cobertura de árvores para evasão padrão
+  </Card>
+  <Card title="Mapa da Caverna">
+    - **Corredores apertados** que limitam rotas de fuga
+    - Baixa visibilidade torna os tempos de reação críticos
+    - Alto risco de ficar encurralado contra as paredes
+  </Card>
+  <Card title="Mapa das Ruínas">
+    - **Plataformas verticais** para fuga em estilo plataforma
+    - Linhas de visão abertas para avistar gigantes cedo
+    - Dificuldade moderada com zonas de segurança equilibradas
+  </Card>
+</CardGrid>
+
+Para maximizar suas rodadas de sobrevivência, analise as vantagens estruturais de cada mapa. A tabela abaixo resume as métricas principais para as rotações primárias de mapas.
+
+| Nome do Mapa | Nível de Perigo | Melhor Rota de Fuga | Característica Principal |
+| - | - | - | - |
+| Floresta | Baixo | Dossel fora dos limites | Skybox aberto |
+| Cavernas | Alto | Caminhos em bordas superiores | Túneis estreitos |
+| Ruínas | Médio | Pilares quebrados | Plataformas verticais |
+| Terras Desoladas | Alto | Muros do perímetro externo | Terreno plano |
+
+<Callout type="info" title="Comportamento de Pathfinding da IA">
+Os gigantes utilizam pathfinding básico de navmesh. Eles não conseguem pular grandes vãos ou escalar superfícies verticais que não possuam rampas. Posicionar-se em ruínas elevadas ou muros externos do mapa sempre interromperá seus loops de rastreamento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégias Essenciais de Sobrevivência e Checklist de Navegação">
+
+Navegar nos mapas de Lurking Giants com sucesso requer uma mistura de percepção ambiental e execução mecânica. Mesmo sem depender de glitches fora do mapa, entender como atrair gigantes para obstáculos aumentará drasticamente seu tempo de sobrevivência.
+
+Ao jogar em mapas padrão, sempre priorize os perímetros externos. O centro da maioria dos mapas é uma zona morta onde os gigantes podem facilmente cercá-lo de vários ângulos. Use as bordas do mapa para manter todas as ameaças à sua frente.
+
+<Checklist
+  id="map-survival-goals"
+  title="Objetivos de Navegação no Mapa:"
+  items={[
+    "Identificar a variante do mapa nos primeiros cinco segundos de spawn",
+    "Localizar a estrutura vertical ou plataforma elevada mais próxima",
+    "Evitar corredores sem saída em layouts baseados em cavernas",
+    "Acompanhar as direções de spawn dos gigantes em relação à sua posição"
+  ]}
+/>
+
+Diferentes gigantes interagem com a geometria do mapa de formas distintas. Consulte a tabela de interação abaixo para planejar seus movimentos defensivos.
+
+| Tipo de Gigante | Velocidade de Movimento | Contra-ataque no Mapa | Nível de Ameaça |
+| - | - | - | - |
+| Gigante Padrão | Moderada | Plataformas altas | Médio |
+| Gigante Perseguidor | Rápida | Cantos apertados | Alto |
+| Gigante Colosso | Lenta | Obstáculos de looping | Baixo |
+
+<Callout type="success" title="Estratégia de Coordenação de Equipe">
+Se estiver jogando em grupo, designe um jogador para atrair a atenção do gigante perto do centro do mapa enquanto outros jogadores garantem posições em terrenos elevados. Esta estratégia de distração mantém as rotas de fuga do perímetro livres.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ e Solução de Problemas">
+
+Manter-se atualizado sobre os layouts dos mapas e mudanças mecânicas é crucial para manter sua posição nos rankings. Use os recursos e respostas a seguir para resolver problemas comuns de navegação.
+
+<Callout type="warning" title="Aviso de Exploit">
+Abusar de glitches fora do mapa pode, às vezes, fazer seu personagem cair no vazio se você caminhar muito além das fronteiras renderizadas. Sempre fique perto dos ativos visíveis do dossel para evitar cair para fora do mundo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Por que não consigo passar pelo glitch da rocha no mapa da Floresta?",
+    answer: "Você provavelmente está jogando na variante de Caverna do mapa da Floresta. O exploit de colisão só funciona na variante que não possui cavernas. Certifique-se de verificar o layout do mapa imediatamente após o spawn."
+  },
+  {
+    question: "Glitches fora do mapa são permitidos em Lurking Giants?",
+    answer: "Embora esses glitches façam parte do motor de física, os desenvolvedores frequentemente os corrigem para manter a jogabilidade justa. Usá-los fica a seu critério, mas espere que atualizações removam esses locais com o tempo."
+  },
+  {
+    question: "Qual dos mapas de Lurking Giants é o mais difícil para jogadores solo?",
+    answer: "O mapa da Caverna é amplamente considerado o mais difícil devido aos seus espaços fechados, visibilidade limitada e falta de rotas de fuga verticais fáceis."
+  },
+  {
+    question: "Como escapo de um gigante se for encurralado em um mapa plano?",
+    answer: "Use ângulos de curva fechados em torno de pequenas rochas ou árvores. Os gigantes têm raios de curva amplos, permitindo que você deslize por trás deles se cronometrar suas mudanças de direção corretamente."
+  }
+]} />
+
+</Section>

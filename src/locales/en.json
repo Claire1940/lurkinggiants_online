@@ -10,7 +10,15 @@
       "twitterDescription": "Lurking Giants Wiki covers codes, giants, perks, maps, controls, and survival tips for the Roblox analog-horror game."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "survival": "Survival",
+    "monsters": "Monsters",
+    "roles": "Roles",
+    "maps": "Maps",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -684,125 +692,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lurking Giants Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lurking Giants Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lurking Giants guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+    "codes": {
+      "title": "Lurking Giants Codes",
+      "description": "Latest working codes for free Coins, stat boosts, and limited-time perks. Updated daily with verified codes and a clear redemption guide.",
+      "metaTitle": "Lurking Giants Codes - Free Coins & Rewards",
+      "metaDescription": "Get free Coins and rewards with active Lurking Giants codes. Updated daily with verified working codes and step-by-step redemption instructions.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Codes are free redeemable strings released by ULTRA works that grant Coins, stat boosts, and limited-time perks. New codes drop alongside major updates, new giant releases, and community milestones.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Coins",
+        "step1Description": "Claim Coins instantly to unlock new giants and perks without grinding rounds.",
+        "step2Title": "Stay Current",
+        "step2Description": "Codes arrive with each update and event, so checking back keeps your loadout competitive.",
+        "step3Title": "Instant and Safe",
+        "step3Description": "Redeeming takes seconds in-game and rewards land in your account immediately."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Lurking Giants Guide",
+      "description": "Complete beginner guides covering first rounds, controls, movement tech, and core rules for surviving the analog-horror giants.",
+      "metaTitle": "Lurking Giants Guide - Beginner, Controls & Tips",
+      "metaDescription": "Learn how to play Lurking Giants with beginner walkthroughs, full PC and mobile controls, movement tech, and tips for surviving night rounds.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Guide?",
+      "whatIsDescription": "Guides walk you through your first lobby, opening rounds, and win conditions, plus the keyboard, mobile, and controller inputs you need to move, sprint, crouch, and use abilities.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand round flow, your goals as a survivor, and how to avoid the giant in the opening minutes.",
+        "step2Title": "Master Controls",
+        "step2Description": "Bind PC, mobile, and controller inputs so movement and ability use feel automatic under pressure.",
+        "step3Title": "Play Smarter",
+        "step3Description": "Apply tips and tricks that experienced players use to escape chases and reach safe zones."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lurking Giants Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lurking Giants Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lurking Giants Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "survival": {
+      "title": "Lurking Giants Survival",
+      "description": "Survival strategies for hiding, escaping, and lasting through night rounds against towering analog-horror giants.",
+      "metaTitle": "Lurking Giants Survival - Hiding Spots & Escape Tips",
+      "metaDescription": "Survive Lurking Giants with guides on best hiding spots, escape routes, night-round tactics, and solo survival strategies against the giants.",
+      "categoryLabel": "SURVIVAL TACTICS",
+      "whatIs": "What is Survival?",
+      "whatIsDescription": "Survival guides cover hiding spot locations, escape routes, night-round behavior, and solo tactics so you can stay hidden, break line of sight, and reach the next safe zone.",
+      "why": "Why focus on survival?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Find Safe Hiding Spots",
+        "step1Description": "Learn which objects, rooms, and map corners keep you out of the giant's line of sight.",
+        "step2Title": "Plan Escapes",
+        "step2Description": "Memorize escape routes and line-of-sight breaks for the moment the giant spots you.",
+        "step3Title": "Survive Night Rounds",
+        "step3Description": "Adapt to low-visibility night rounds and solo situations where teamwork is not an option."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Survival Guides"
     },
-    "items": {
-      "title": "Lurking Giants Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lurking Giants Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lurking Giants including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "monsters": {
+      "title": "Lurking Giants Monsters",
+      "description": "Full monster list, giant types, abilities, and behavior patterns for every giant that hunts you in Lurking Giants.",
+      "metaTitle": "Lurking Giants Monsters - Giant List & Abilities",
+      "metaDescription": "Browse every Lurking Giants monster and giant type. Learn their abilities, behavior, and patterns including the Guilt giant and its full kit.",
+      "categoryLabel": "MONSTERS",
+      "whatIs": "What are Monsters?",
+      "whatIsDescription": "Monsters are the towering analog-horror giants that hunt survivors each round. Each giant has unique abilities, detection rules, and unlock conditions that shape how you survive.",
+      "why": "Why study monsters?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Know Each Giant",
+        "step1Description": "Learn the full monster list with stats, abilities, and behavior for every giant in the roster.",
+        "step2Title": "Read Ability Kits",
+        "step2Description": "Understand what each giant can do, from Guilt's abilities to detection range and chase triggers.",
+        "step3Title": "Plan Around Patterns",
+        "step3Description": "Match your survival and escape strategy to the specific giant hunting your round."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Monsters"
     },
-    "biomes": {
-      "title": "Lurking Giants Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lurking Giants Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lurking Giants biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "roles": {
+      "title": "Lurking Giants Roles",
+      "description": "Role guides for playing as Survivor and Giant, covering abilities, perks, playstyle, and strategy for both sides.",
+      "metaTitle": "Lurking Giants Roles - Survivor & Giant Guide",
+      "metaDescription": "Master both sides of Lurking Giants with survivor and giant role guides. Learn abilities, perks, playstyle, and strategy whether you hide or hunt.",
+      "categoryLabel": "ROLES",
+      "whatIs": "What are Roles?",
+      "whatIsDescription": "Lurking Giants is an asymmetric game with two roles: Survivor, who hides and escapes, and Giant, who hunts. Each role has its own abilities, perks, and win conditions.",
+      "why": "Why learn both roles?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Survive Better",
+        "step1Description": "Knowing survivor tactics, perks, and movement keeps you alive across every map.",
+        "step2Title": "Hunt Smarter",
+        "step2Description": "Playing giant teaches detection, ability timing, and how survivors think, so you close rounds faster.",
+        "step3Title": "Adapt to Either Side",
+        "step3Description": "Role guides prepare you for whatever side the match assigns, with playstyle and strategy for each."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Role Guides"
     },
-    "building": {
-      "title": "Lurking Giants Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lurking Giants Building - Qualia & Base Construction",
-      "metaDescription": "Master Lurking Giants building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "maps": {
+      "title": "Lurking Giants Maps",
+      "description": "Map guides covering layouts, secret areas, escape routes, and hiding positions across every Lurking Giants map.",
+      "metaTitle": "Lurking Giants Maps - Layouts, Secrets & Escape Routes",
+      "metaDescription": "Explore every Lurking Giants map with layout guides, secret areas, escape routes, and the best hiding positions to survive each round.",
+      "categoryLabel": "MAPS",
+      "whatIs": "What are Maps?",
+      "whatIsDescription": "Map guides break down the layout of each environment, including secret areas, vertical routes, escape paths, and reliable hiding positions that hold up through map reworks.",
+      "why": "Why learn maps?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Read Layouts",
+        "step1Description": "Understand the structure, landmarks, and lanes of each map before the round starts.",
+        "step2Title": "Find Secrets",
+        "step2Description": "Locate secret areas and vertical routes that keep you off the giant's path.",
+        "step3Title": "Plan Escape Routes",
+        "step3Description": "Memorize escape routes and safe zones so you can relocate the moment you are spotted."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Map Guides"
     },
-    "support": {
-      "title": "Lurking Giants Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lurking Giants Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lurking Giants including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "updates": {
+      "title": "Lurking Giants Updates",
+      "description": "Track every Lurking Giants update, patch note, rework, new giant, and release info as the game evolves.",
+      "metaTitle": "Lurking Giants Updates - Patch Notes & Rework",
+      "metaDescription": "Stay current with Lurking Giants updates, patch notes, the latest version, the ongoing rework, new giants, and release date info.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Update guides track patch notes, version history, the large-scale rework, new giant and perk releases, balance changes, and bug fixes as ULTRA works continues development.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Catch New Content",
+        "step1Description": "See new giants, perks, maps, and codes the moment each update ships.",
+        "step2Title": "Track the Rework",
+        "step2Description": "Follow the ongoing rework, balance changes, and device support rollouts including VR and controller.",
+        "step3Title": "Read Patch Notes",
+        "step3Description": "Review version history, bug fixes, and the latest version so your strategy stays current."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Updates"
     }
   }
 }
