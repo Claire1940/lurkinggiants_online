@@ -119,19 +119,19 @@
       "intro": "Os códigos fornecem Coins grátis que podem ser economizados para gigantes e outros conteúdos da Loja. O código atual foi lançado com a atualização do Verity e pode ser resgatado diretamente na seção de Códigos da Loja.",
       "items": [
         {
-          "type": "codigo-ativo",
+          "type": "active-code",
           "code": "SORRYFORDELAY",
           "reward": "200 Coins",
           "status": "Ativo",
           "verifiedDate": "11 de julho de 2026"
         },
         {
-          "type": "codigos-expirados",
+          "type": "expired-codes",
           "status": "Nenhum código expirado",
           "description": "Nenhum código de Lurking Giants anteriormente ativo foi registrado como expirado."
         },
         {
-          "type": "guia-de-resgate",
+          "type": "redemption-guide",
           "title": "Como resgatar códigos de Lurking Giants",
           "steps": [
             "Inicie o Lurking Giants no Roblox e entre no lobby.",

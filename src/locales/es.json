@@ -119,19 +119,19 @@
       "intro": "Los códigos otorgan Coins gratis que pueden ahorrarse para gigantes y otros contenidos de la tienda. El código actual se lanzó con la actualización de Verity y se puede canjear directamente desde la sección de códigos de la tienda.",
       "items": [
         {
-          "type": "código-activo",
+          "type": "active-code",
           "code": "SORRYFORDELAY",
           "reward": "200 Coins",
           "status": "Funcional",
           "verifiedDate": "11 de julio de 2026"
         },
         {
-          "type": "códigos-expirados",
+          "type": "expired-codes",
           "status": "No hay códigos caducados",
           "description": "No se ha registrado que ningún código de Lurking Giants que funcionara anteriormente haya caducado."
         },
         {
-          "type": "guía de canje",
+          "type": "redemption-guide",
           "title": "Cómo canjear códigos de Lurking Giants",
           "steps": [
             "Inicia Lurking Giants en Roblox y entra al lobby.",
