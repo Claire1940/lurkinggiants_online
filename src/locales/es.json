@@ -1,11 +1,836 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Lurking Giants - códigos, gigantes, mapas y ventajas",
+      "description": "Explora los códigos de Lurking Giants, guías de gigantes, mapas, ventajas, controles, consejos de supervivencia, notas de actualización y detalles del rediseño para el juego de terror de Roblox.",
+      "keywords": "Lurking Giants, Roblox, códigos, gigantes, mapas, ventajas, controles, guía de supervivencia, actualizaciones",
+      "ogTitle": "Wiki de Lurking Giants - códigos, gigantes, mapas y ventajas",
+      "ogDescription": "Explora los códigos de Lurking Giants, guías de gigantes, mapas, ventajas, controles, consejos de supervivencia, notas de actualización y detalles del rediseño para el juego de terror de Roblox.",
+      "twitterTitle": "Wiki de Lurking Giants - códigos, gigantes, mapas y ventajas",
+      "twitterDescription": "La Wiki de Lurking Giants cubre códigos, gigantes, ventajas, mapas, controles y consejos de supervivencia para el juego de terror analógico de Roblox."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "survival": "Survival",
-    "monsters": "Monsters",
+    "codes": "Códigos",
+    "guide": "Guía",
+    "survival": "Supervivencia",
+    "monsters": "Monstruos",
     "roles": "Roles",
-    "maps": "Maps",
-    "updates": "Updates"
+    "maps": "Mapas",
+    "updates": "Actualizaciones"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Supervivencia de terror analógico",
+    "title": "Wiki de Lurking Giants",
+    "description": "Sobrevive a terroríficas rondas nocturnas, evita a imponentes gigantes de terror analógico, usa ventajas de jugador y movimiento avanzado, gana Coins, desbloquea nuevos gigantes y escapa con amigos.",
+    "keywords": "Lurking Giants, Roblox, supervivencia de terror, códigos, gigantes, Verity, ventajas, mapas, remodelación",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnRobloxCTA": "Juega en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "14.2M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "8.2K",
+        "label": "Jugadores en línea"
+      },
+      "stat3": {
+        "value": "87%",
+        "label": "Calificación de los jugadores"
+      },
+      "stat4": {
+        "value": "1",
+        "label": "Código activo"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Lurking Giants",
+    "description": "Sobrevive a aterradoras rondas nocturnas en Lurking Giants, el juego de supervivencia de terror analógico de Roblox donde la mayoría de los jugadores se esconden como supervivientes mientras un gigante imponente los caza a través de mapas de Bosque y Ciudad."
+  },
+  "tools": {
+    "title": "Lurking Giants",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para sobrevivir en Lurking Giants — códigos activos, guías de gigantes, clasificaciones de niveles, mapas, ventajas, controles, Coins y las últimas actualizaciones del rediseño.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos",
+        "description": "Códigos activos de Lurking Giants, recompensas de Coins y pasos de canje en la tienda"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Roles, rondas de supervivencia, cacerías de gigantes, espectar y consejos para la primera partida"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Lista de niveles",
+        "description": "Clasifica a cada gigante de Lurking Giants por presión de persecución, dificultad y valor"
+      },
+      {
+        "icon": "Skull",
+        "title": "Guía de gigantes",
+        "description": "Locust, Guilt, Verity y el manual principal de caza de gigantes"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Controles",
+        "description": "Controles de PC, móvil y gigante, además del próximo soporte para mando y VR"
+      },
+      {
+        "icon": "Map",
+        "title": "Mapas y escondites",
+        "description": "Forest, City, cuevas, azoteas y rutas de rotación seguras"
+      },
+      {
+        "icon": "Coins",
+        "title": "Coins y desbloqueos",
+        "description": "Farming de Coins, desbloqueos de gigante y prioridad de gasto en la tienda"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Actualizaciones y rework",
+        "description": "Actualización de Verity, ventajas de jugador, balanceo y la hoja de ruta del rework"
+      }
+    ]
+  },
+  "modules": {
+    "lurkingGiantsCodes": {
+      "eyebrow": "Coins gratis",
+      "title": "Códigos de Lurking Giants",
+      "subtitle": "Canjea el último código funcional de Lurking Giants para obtener Coins gratis. Copia el código exactamente como se muestra y reclámalo a través de la tienda del juego.",
+      "intro": "Los códigos otorgan Coins gratis que pueden ahorrarse para gigantes y otros contenidos de la tienda. El código actual se lanzó con la actualización de Verity y se puede canjear directamente desde la sección de códigos de la tienda.",
+      "items": [
+        {
+          "type": "código-activo",
+          "code": "SORRYFORDELAY",
+          "reward": "200 Coins",
+          "status": "Funcional",
+          "verifiedDate": "11 de julio de 2026"
+        },
+        {
+          "type": "códigos-expirados",
+          "status": "No hay códigos caducados",
+          "description": "No se ha registrado que ningún código de Lurking Giants que funcionara anteriormente haya caducado."
+        },
+        {
+          "type": "guía de canje",
+          "title": "Cómo canjear códigos de Lurking Giants",
+          "steps": [
+            "Inicia Lurking Giants en Roblox y entra al lobby.",
+            "Selecciona el botón de la Tienda en el lado izquierdo de la pantalla.",
+            "Abre la sección de Códigos cerca de la parte inferior de la Tienda.",
+            "Introduce SORRYFORDELAY exactamente como se muestra.",
+            "Presiona Enter o selecciona el botón de la marca de verificación para recibir 200 Coins."
+          ]
+        }
+      ]
+    },
+    "lurkingGiantsBeginnerGuide": {
+      "eyebrow": "Empieza a jugar",
+      "title": "Guía para principiantes de Lurking Giants",
+      "subtitle": "Aprende cómo funcionan el lobby, la selección de roles, las rondas de supervivencia, las cacerías de gigantes, el modo espectador y la progresión de Coins antes de entrar a tu primera partida.",
+      "intro": "Lurking Giants es un juego de terror asimétrico de Roblox en el que la mayoría de los jugadores se convierten en supervivientes mientras que otro jugador controla a un gigante. Los supervivientes deben mantenerse con vida durante la noche, mientras el gigante busca por el mapa e intenta eliminar a todos antes de que termine la ronda.",
+      "steps": [
+        {
+          "title": "Prepárate en el lobby",
+          "description": "Usa el lobby para revisar la tienda, canjear códigos, inspeccionar los gigantes disponibles y esperar a la siguiente partida. Jugar con amigos hace que sea más fácil compartir los avistamientos de gigantes y coordinar rutas de escondite."
+        },
+        {
+          "title": "Recibe tu rol",
+          "description": "Al inicio de una partida, a los jugadores se les asigna el rol de superviviente o el rol de gigante. Superviviente es el rol más común, mientras que la selección de gigante está controlada por el sistema de selección de roles del juego."
+        },
+        {
+          "title": "Sobrevive en equipo",
+          "description": "Muévete entre coberturas, vigila los caminos abiertos y evita quedarte en un solo grupo grande. Mantén al menos una ruta de escape cerca para que todo el equipo no quede atrapado cuando el gigante llegue a una zona de escondite."
+        },
+        {
+          "title": "Usa la cobertura del mapa",
+          "description": "Bosque y Ciudad contienen terrenos, líneas de visión, edificios y zonas de escondite diferentes. El Bosque favorece la cobertura natural y los cambios de ruta, mientras que la Ciudad ofrece estructuras y caminos verticales que pueden romper las persecuciones directas."
+        },
+        {
+          "title": "Reacciona ante los avistamientos de gigantes",
+          "description": "No corras directamente hacia tus compañeros cuando te persigan. Aleja al gigante de los escondites ocupados, cambia de dirección rodeando coberturas sólidas y reubícate después de que el gigante revise tu zona."
+        },
+        {
+          "title": "Caza como el gigante",
+          "description": "Patrulla los caminos principales en lugar de revisar cada rincón pequeño. Enfócate en bloquear salidas, volver a visitar áreas donde se vieron supervivientes recientemente y controlar las rutas entre escondites estratégicos."
+        },
+        {
+          "title": "Espectar tras la eliminación",
+          "description": "Los jugadores eliminados pueden ver el resto de la partida. Usa el modo espectador para aprender rutas seguras, escondites comunes, patrones de movimiento del gigante y errores que revelan la posición de los supervivientes."
+        },
+        {
+          "title": "Gana y gasta Coins",
+          "description": "Completa rondas y usa recompensas de códigos para aumentar tu saldo de Coins. Los Coins se pueden gastar en la Tienda en gigantes desbloqueables y otro contenido de progresión."
+        },
+        {
+          "title": "Lista de verificación de la primera partida",
+          "description": "Canjea el código activo, aprende una ruta del mapa, mantente cerca de una cobertura sólida, evita seguir a grupos grandes, vigila la dirección del gigante y observa el resto de la ronda después de la eliminación."
+        }
+      ]
+    },
+    "lurkingGiantsTierList": {
+      "eyebrow": "Clasificación de gigantes",
+      "title": "Tier list de gigantes de Lurking Giants",
+      "subtitle": "Compara los gigantes actuales por su presión de persecución, control del mapa, accesibilidad, dificultad de aprendizaje y valor en Coins.",
+      "intro": "El mejor gigante depende de si buscas la máxima presión, un nuevo estilo de juego centrado en la actualización o un personaje gratuito para aprender el rol. Guilt sigue siendo la compra de progresión establecida más fuerte, Verity es la opción principal de la actualización de Verity y Locust es el personaje inicial más accesible.",
+      "items": [
+        {
+          "tier": "S",
+          "name": "Guilt",
+          "availability": "Desbloqueo de la tienda",
+          "cost": "7.000 Coins",
+          "difficulty": "Intermedio",
+          "strengths": [
+            "Fuerte presión de persecución",
+            "Presencia grande e intimidante",
+            "Eficaz para controlar rutas importantes",
+            "Opción consolidada para jugadores de gigantes dedicados"
+          ],
+          "weaknesses": [
+            "Requiere una gran inversión de Coins",
+            "Menos adecuado para jugadores que aún están aprendiendo las rutas básicas de gigantes"
+          ],
+          "bestFor": "Jugadores que reciben regularmente el rol de gigante y quieren una compra de Coins a largo plazo."
+        },
+        {
+          "tier": "A",
+          "name": "Verity",
+          "availability": "Gigante de la actualización Verity",
+          "cost": "Revisa la tienda actual del juego",
+          "difficulty": "Intermedio a Avanzado",
+          "strengths": [
+            "Diseñado en torno a la última actualización de los Gigantes",
+            "Fuerte presión en situaciones de persecución activa",
+            "Funciona bien con las nuevas mecánicas y ventajas de la actualización",
+            "Útil para jugadores que ya entienden las rutas del mapa"
+          ],
+          "weaknesses": [
+            "Requiere más conocimiento del mapa que el Gigante inicial",
+            "Aprender las nuevas mecánicas lleva tiempo"
+          ],
+          "bestFor": "Jugadores que regresan y quieren usar el Gigante más nuevo y las mecánicas de la actualización."
+        },
+        {
+          "tier": "B",
+          "name": "Locust",
+          "availability": "Gigante predeterminado",
+          "cost": "Gratis",
+          "difficulty": "Principiante",
+          "strengths": [
+            "Disponible sin gastar Coins",
+            "Opción sencilla para aprender el movimiento del gigante",
+            "Bueno para practicar rutas de patrulla y el rastreo de supervivientes",
+            "No requiere inversión en progresión"
+          ],
+          "weaknesses": [
+            "Menor presión general que los gigantes premium",
+            "Los supervivientes experimentados están más familiarizados con sus patrones de persecución"
+          ],
+          "bestFor": "Nuevos jugadores aprendiendo a patrullar mapas, encontrar supervivientes y controlar las rutas de escape."
+        }
+      ]
+    },
+    "lurkingGiantsGiantGuide": {
+      "eyebrow": "Juega como el gigante",
+      "title": "Guía del gigante de Lurking Giants",
+      "subtitle": "Conoce a Locust, Guilt y Verity, y aprende a patrullar mapas, encontrar supervivientes, cortar rutas de escape y finalizar persecuciones.",
+      "intro": "Los gigantes son el bando cazador de cada partida. Su objetivo es localizar supervivientes, presionar los escondites fuertes y eliminar jugadores antes de que termine la ronda de supervivencia. Cada gigante ofrece un equilibrio diferente de accesibilidad, presión de persecución y dificultad de aprendizaje.",
+      "items": [
+        {
+          "name": "Locust",
+          "role": "Gigante inicial",
+          "unlock": "Disponible por defecto",
+          "playstyle": "Patrulla y persecución directas",
+          "difficulty": "Principiante",
+          "strengths": [
+            "Opción inicial gratuita",
+            "Fácil de usar para aprender las rutas de los mapas",
+            "Eficaz al revisar repetidamente caminos concurridos",
+            "Adecuado para practicar ataques básicos y los tiempos de persecución"
+          ],
+          "weaknesses": [
+            "Los supervivientes experimentados reconocen sus rutas de aproximación comunes",
+            "Depende mucho del buen posicionamiento y la predicción de rutas"
+          ],
+          "strategy": "Patrulla las intersecciones y rutas que conectan las principales zonas de escondite. Cuando encuentres a un superviviente, dirígete hacia la siguiente salida en lugar de seguirlo directamente por detrás."
+        },
+        {
+          "name": "Guilt",
+          "role": "Gigante premium",
+          "unlock": "Cómpralo en la tienda por 7,000 Coins",
+          "playstyle": "Fuerte presión y control de área",
+          "difficulty": "Intermedio",
+          "strengths": [
+            "Presencia poderosa durante las persecuciones",
+            "Fuerte para obligar a los supervivientes a alejarse de las zonas seguras",
+            "Efectivo en salidas estrechas y rutas importantes",
+            "Alto valor a largo plazo para jugadores habituales de gigantes"
+          ],
+          "weaknesses": [
+            "Caro en comparación con el gigante predeterminado",
+            "Las malas elecciones de ruta desperdician sus mejores oportunidades de persecución"
+          ],
+          "strategy": "Controla las salidas alrededor de edificios, cuevas y otras zonas de escondite populares. Obliga a los supervivientes a ir a caminos abiertos antes de lanzarte al ataque final."
+        },
+        {
+          "name": "Verity",
+          "role": "Gigante de la actualización Verity",
+          "unlock": "Disponible a través de la lista de la actualización Verity y la Tienda",
+          "playstyle": "Persecución avanzada y presión centrada en la actualización",
+          "difficulty": "Intermedio a Avanzado",
+          "strengths": [
+            "Creado para la versión más reciente del juego",
+            "Opción sólida para jugadores de gigante activos y agresivos",
+            "Combina con las mecánicas expandidas de la actualización",
+            "Efectivo cuando el jugador ya entiende las rutas de los supervivientes"
+          ],
+          "weaknesses": [
+            "Requiere más práctica que Locust",
+            "Menos indulgente cuando las habilidades o las oportunidades de persecución no se sincronizan bien"
+          ],
+          "strategy": "Usa el conocimiento del mapa para predecir a dónde se reubicarán los supervivientes tras ser descubiertos. Presiona el destino primero y bloquea la ruta de escape más fuerte."
+        },
+        {
+          "name": "Estrategia de partida del gigante",
+          "role": "Manual de tácticas principal",
+          "unlock": "Se aplica a cada gigante",
+          "playstyle": "Busca, presiona, intercepta y elimina",
+          "difficulty": "Todos los niveles de habilidad",
+          "strengths": [
+            "Patrulla rutas de mucho tránsito en lugar de rincones al azar",
+            "Revisa los puntos de escondite clave desde un ángulo que bloquee las salidas",
+            "Rastrea hacia dónde se mueven los supervivientes en lugar de dónde fueron vistos por última vez",
+            "Regresa a las zonas despejadas recientemente después de que los supervivientes comiencen a reubicarse",
+            "Usa el modo espectador y las rondas de superviviente para estudiar los hábitos de escondite"
+          ],
+          "weaknesses": [
+            "Las persecuciones largas y directas pueden desperdiciar el tiempo restante de la ronda",
+            "Revisar repetidamente las zonas vacías les da tiempo a los supervivientes para reposicionarse"
+          ],
+          "strategy": "Piensa una ruta por delante. La eliminación más rápida suele lograrse al interceptar el destino de un superviviente en lugar de seguir cada uno de sus giros."
+        }
+      ]
+    },
+    "lurkingGiantsControls": {
+      "eyebrow": "Controles",
+      "title": "Controles de Lurking Giants para PC y móviles",
+      "subtitle": "Aprende los controles esenciales de superviviente y gigante antes de entrar a una partida. La compatibilidad con mandos y RV también forma parte del rediseño en curso.",
+      "intro": "La mayoría de las acciones usan los controles de movimiento estándar de Roblox, pero esprintar usa la E en lugar de Shift en PC. Los jugadores gigantes reciben controles adicionales de ataque y Haunt, mientras que la Tienda, el Inventario, la Configuración y el modo Espectador se abren a través de la interfaz en pantalla.",
+      "items": [
+        {
+          "platform": "PC",
+          "input": "W, A, S, D",
+          "action": "Moverse",
+          "notes": "Muévete hacia adelante, a la izquierda, hacia atrás y a la derecha."
+        },
+        {
+          "platform": "PC",
+          "input": "Ratón",
+          "action": "Mover la cámara",
+          "notes": "Mira a tu alrededor y rastrea al gigante mientras corres o te escondes."
+        },
+        {
+          "platform": "PC",
+          "input": "E",
+          "action": "Esprintar",
+          "notes": "La tecla para esprintar es E en lugar de la tecla Shift estándar de Roblox."
+        },
+        {
+          "platform": "PC",
+          "input": "Espacio",
+          "action": "Saltar",
+          "notes": "Se usa para el desplazamiento básico y para alcanzar rutas elevadas."
+        },
+        {
+          "platform": "PC",
+          "input": "Indicador en pantalla",
+          "action": "Interactuar",
+          "notes": "Usa el indicador de interacción de Roblox que se muestra cuando un objeto o acción está disponible."
+        },
+        {
+          "platform": "Gigante",
+          "input": "Q",
+          "action": "Ataque",
+          "notes": "Realiza el ataque principal o la secuencia de ataque del gigante."
+        },
+        {
+          "platform": "Gigante",
+          "input": "G",
+          "action": "Habilidad Haunt",
+          "notes": "Activa la habilidad secundaria Haunt del gigante."
+        },
+        {
+          "platform": "PC y móvil",
+          "input": "Botones de Tienda, Inventario, Configuración y Espectar",
+          "action": "Abrir menús",
+          "notes": "Selecciona el botón de la interfaz etiquetado en lugar de usar un atajo de teclado fijo."
+        },
+        {
+          "platform": "Móvil",
+          "input": "Joystick virtual izquierdo",
+          "action": "Moverse",
+          "notes": "Arrastra el joystick en la dirección deseada."
+        },
+        {
+          "platform": "Móvil",
+          "input": "Desliza en el lado derecho",
+          "action": "Mover la cámara",
+          "notes": "Desliza para mirar alrededor y revisar las rutas cercanas."
+        },
+        {
+          "platform": "Móvil",
+          "input": "Botón de esprintar en pantalla",
+          "action": "Correr",
+          "notes": "El botón de correr dedicado realiza la misma acción que la tecla E en PC."
+        },
+        {
+          "platform": "Gigante en móviles",
+          "input": "Botones de habilidades en pantalla",
+          "action": "Atacar y usar habilidades de Gigante",
+          "notes": "Los botones específicos de Gigante aparecen cuando el jugador recibe el rol de Gigante."
+        },
+        {
+          "platform": "Mando y VR",
+          "input": "Próximas asignaciones de controles",
+          "action": "Soporte de dispositivos ampliado",
+          "notes": "La descripción oficial de Roblox incluye el soporte para mando y VR como funciones próximas."
+        }
+      ]
+    },
+    "lurkingGiantsMaps": {
+      "eyebrow": "Mapas y supervivencia",
+      "title": "Mapas y escondites de Lurking Giants",
+      "subtitle": "Usa la oscuridad, rutas verticales, cuevas, estructuras y coberturas sólidas para romper la línea de visión del gigante. Cada escondite debe tener también una salida planeada.",
+      "intro": "Los entornos de bosque y ciudad recompensan diferentes estilos de movimiento. Las zonas exteriores proporcionan cobertura natural y terreno oscuro, mientras que las zonas urbanas ofrecen azoteas, escaleras, esquinas y estructuras elevadas. Quedarse en un lugar obvio durante toda la ronda facilita que el gigante registre esa zona.",
+      "items": [
+        {
+          "title": "Mapa del bosque",
+          "summary": "Un entorno al aire libre con árboles, arbustos, cuevas, terreno irregular y cruces abiertos y amplios.",
+          "details": [
+            "Usa las hileras de árboles y la vegetación densa para interrumpir la visión del gigante.",
+            "Las cuevas y los huecos oscuros proporcionan un fuerte ocultamiento temporal.",
+            "Evita cruzar terrenos expuestos mientras el gigante ya esté mirando hacia tu ruta.",
+            "Muévete a una segunda zona a cubierto después de que el gigante revise tu posición actual."
+          ]
+        },
+        {
+          "title": "Mapa de la ciudad",
+          "summary": "Un entorno vertical construido alrededor de edificios, azoteas, escaleras, esquinas y estructuras elevadas.",
+          "details": [
+            "Usa las esquinas de los edificios y los giros de las escaleras para romper la línea de visión directa.",
+            "Las azoteas y los niveles superiores pueden crear distancia de un gigante abajo.",
+            "Elige posiciones elevadas con una segunda escalera, ruta de caída o plataforma cercana.",
+            "Evita los callejones sin salida en las azoteas que dejen solo una ruta de escape."
+          ]
+        },
+        {
+          "title": "Cuevas y recovecos oscuros",
+          "summary": "Las áreas cerradas y oscuras pueden ocultar la silueta de un superviviente y bloquear las líneas de visión largas.",
+          "details": [
+            "Mantente alejado de la entrada para que tu avatar no se recorte contra la abertura.",
+            "Escucha al gigante antes de salir del área.",
+            "Trata las cuevas como cobertura temporal porque la entrada puede convertirse en una trampa.",
+            "Sal después de que el gigante pase en lugar de esperar a que entre."
+          ]
+        },
+        {
+          "title": "Azoteas y posiciones elevadas",
+          "summary": "Las ubicaciones elevadas les dan a los supervivientes más tiempo para ver a un gigante acercarse.",
+          "details": [
+            "Revisa la ruta completa antes de subir al punto más alto.",
+            "Mantén al menos un descenso alternativo o plataforma de conexión disponible.",
+            "No te quedes silueteado en el borde expuesto de un tejado.",
+            "Vete antes cuando el gigante comience a subir hacia el mismo nivel."
+          ]
+        },
+        {
+          "title": "Esquinas y obstáculos sólidos",
+          "summary": "Las paredes, edificios, rocas y otros objetos grandes son más confiables que la oscuridad abierta.",
+          "details": [
+            "Mantén el obstáculo entre tu avatar y el gigante.",
+            "Muévete hacia el lado opuesto cuando el gigante cambie de dirección.",
+            "Evita los objetos pequeños que no oculten tu avatar por completo.",
+            "Usa varios obstáculos cercanos como ruta de rotación en lugar de un solo punto de escondite permanente."
+          ]
+        },
+        {
+          "title": "Regla de rotación segura",
+          "summary": "Un buen escondite se vuelve peligroso después de que el gigante lo descubre o lo revisa repetidamente.",
+          "details": [
+            "Observa la dirección del gigante antes de salir de tu cobertura.",
+            "Corre solo cuando el movimiento sea necesario y ya hayas elegido un destino.",
+            "No amontones a todo el equipo de supervivientes en una sola cueva o azotea.",
+            "Rota hacia una nueva posición a cubierto después de que el gigante pase de largo por tu zona."
+          ]
+        }
+      ]
+    },
+    "lurkingGiantsCoins": {
+      "eyebrow": "Coins y Tienda",
+      "title": "Lurking Giants Coins, gigantes y desbloqueos",
+      "subtitle": "Gasta Coins en progresión permanente después de aprender a usar el gigante gratuito. Los pases de Roblox siguen siendo opcionales y no son necesarios para entrar en partidas normales.",
+      "intro": "Los Coins son la moneda principal que se puede ganar para progresar en la tienda. Los nuevos jugadores pueden empezar con Locust, reclamar la recompensa de código gratuito disponible y ahorrar para Guilt antes de considerar pases de Robux opcionales.",
+      "items": [
+        {
+          "category": "Gigante gratuito",
+          "name": "Locust",
+          "cost": "Gratis",
+          "howToGet": "Disponible como el gigante inicial",
+          "priority": "Usa a Locust para aprender el movimiento del gigante, los ataques, el tiempo de Haunt y las rutas del mapa antes de comprar otro gigante."
+        },
+        {
+          "category": "Gigante por Coins",
+          "name": "Guilt",
+          "cost": "7,000 Coins",
+          "howToGet": "Cómpralo en la tienda del juego",
+          "priority": "La principal compra a largo plazo con Coins para jugadores que disfrutan habitualmente del rol de gigante."
+        },
+        {
+          "category": "Recompensa de código",
+          "name": "SORRYFORDELAY",
+          "cost": "Gratis",
+          "howToGet": "Abre la tienda, busca el campo de código, introduce el código y canjéalo",
+          "priority": "Otorga 200 Coins y debe reclamarse antes de comenzar el objetivo de ahorro más largo para Guilt."
+        },
+        {
+          "category": "Moneda obtenible",
+          "name": "Coins de la partida",
+          "cost": "Tiempo jugado",
+          "howToGet": "Completa rondas y cumple los objetivos del rol de sobreviviente o gigante asignado",
+          "priority": "Sigue jugando partidas normales después de reclamar las recompensas de códigos disponibles."
+        },
+        {
+          "category": "Pase opcional",
+          "name": "2x probabilidad de gigante",
+          "cost": "Robux",
+          "howToGet": "Comprar en la sección de la tienda de Roblox",
+          "priority": "Solo es útil para jugadores que quieren específicamente el rol de gigante con más frecuencia; no reemplaza el desbloqueo de un gigante."
+        },
+        {
+          "category": "Pase opcional",
+          "name": "Doble poder de voto",
+          "cost": "Robux",
+          "howToGet": "Comprar en la sección de la tienda de Roblox",
+          "priority": "Una compra de conveniencia para influir en la votación de mapas o partidas en lugar de una progresión directa."
+        },
+        {
+          "category": "Pase opcional",
+          "name": "Linterna potente",
+          "cost": "Robux",
+          "howToGet": "Comprar en la sección de la tienda de Roblox",
+          "priority": "Proporciona una opción centrada en la visibilidad para los jugadores que eligen con frecuencia el rol de superviviente."
+        },
+        {
+          "category": "Pase opcional",
+          "name": "VIP",
+          "cost": "Robux",
+          "howToGet": "Compra en la sección de la Tienda de Roblox",
+          "priority": "Consulta la descripción actual de la Tienda antes de comprar, ya que los beneficios VIP pueden cambiar durante la remodelación."
+        }
+      ]
+    },
+    "lurkingGiantsUpdates": {
+      "eyebrow": "Seguimiento de actualizaciones",
+      "title": "Actualizaciones y remodelación masiva de Lurking Giants",
+      "subtitle": "Sigue el contenido de Verity lanzado, los sistemas remodelados, los cambios de equilibrio y las funciones restantes de dispositivos y jugabilidad anunciadas por ULTRA works.",
+      "intro": "Lurking Giants se está reconstruyendo a través de una gran remodelación de múltiples funciones. La actualización actual de Verity introdujo un nuevo lanzamiento centrado en los gigantes junto con ventajas para los jugadores, códigos, cambios en los mapas, equilibrio, mayor compatibilidad con dispositivos y correcciones de errores, mientras que las funciones adicionales de movimiento y plataforma permanecen en la hoja de ruta.",
+      "items": [
+        {
+          "period": "Anuncio de la remodelación",
+          "status": "En curso",
+          "title": "Rediseño masivo y nuevas mecánicas",
+          "changes": [
+            "La descripción oficial de Roblox confirma un rediseño importante.",
+            "Los sistemas principales, mapas, equilibrio y compatibilidad con dispositivos se están actualizando.",
+            "El desarrollador advierte que pueden aparecer nuevos errores menores mientras se reconstruyen los sistemas."
+          ]
+        },
+        {
+          "period": "Julio de 2026",
+          "status": "Lanzado",
+          "title": "Actualización del gigante Verity",
+          "changes": [
+            "Verity se añadió como el gigante principal de la actualización.",
+            "El título de la experiencia de Roblox cambió a Lurking Giants [VERITY].",
+            "Nuevas clases de supervivientes y ventajas de jugador pasaron a formar parte de la jugabilidad actualizada."
+          ]
+        },
+        {
+          "period": "Julio de 2026",
+          "status": "Lanzado",
+          "title": "Códigos y recompensas de Coins",
+          "changes": [
+            "Se añadió un sistema de canje de códigos a la tienda.",
+            "SORRYFORDELAY otorga 200 Coins.",
+            "Los Coins pueden usarse para la progresión en la tienda y para desbloquear gigantes."
+          ]
+        },
+        {
+          "period": "Julio de 2026",
+          "status": "Lanzado",
+          "title": "Cambios de equilibrio y selección de gigantes",
+          "changes": [
+            "El equilibrio de gigantes se incluyó en las notas oficiales del evento.",
+            "Se mejoraron las probabilidades de selección de gigante.",
+            "Las interacciones existentes entre gigantes y supervivientes recibieron ajustes de la era del rework."
+          ]
+        },
+        {
+          "period": "Julio de 2026",
+          "status": "Lanzado",
+          "title": "Mapas rediseñados y mejoras de dispositivos",
+          "changes": [
+            "Los mapas existentes recibieron cambios del rework.",
+            "Se incluyó compatibilidad con nuevos dispositivos en la actualización.",
+            "La corrección de errores acompañó a los nuevos sistemas de juego."
+          ]
+        },
+        {
+          "period": "Hoja de ruta del rework",
+          "status": "Anunciado",
+          "title": "Movimiento avanzado y combate expandido",
+          "changes": [
+            "El movimiento avanzado está listado como una función de rediseño planificada.",
+            "Se planean nuevas formas para que los supervivientes ataquen o resistan al Gigante.",
+            "Los objetos adicionales y las habilidades expandidas del Gigante son parte de la hoja de ruta más amplia."
+          ]
+        },
+        {
+          "period": "Hoja de ruta del rediseño",
+          "status": "Anunciado",
+          "title": "Gigantes, mapas, clases y ventajas adicionales",
+          "changes": [
+            "Se planean más Gigantes más allá del elenco actual.",
+            "Se incluyen nuevos mapas en la hoja de ruta oficial de actualizaciones.",
+            "Se espera que las clases y ventajas de los jugadores continúen expandiéndose."
+          ]
+        },
+        {
+          "period": "Próximamente",
+          "status": "Próximamente",
+          "title": "Soporte para mando y VR",
+          "changes": [
+            "La descripción oficial de Roblox indica que el soporte para mando llegará pronto.",
+            "El soporte para VR también figura como una próxima función de la plataforma.",
+            "La configuración de controles final y los detalles de los dispositivos compatibles se mostrarán cuando se lancen estas funciones."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Lurking Giants",
+    "questions": [
+      {
+        "question": "¿Qué son los códigos de Lurking Giants y cómo los canjeo?",
+        "answer": "Los códigos de Lurking Giants son recompensas gratuitas que se reclaman a través de la Tienda del juego. Abre la Tienda, busca la sección de Códigos, introduce el código activo exactamente como se muestra y confirma para recibir Coins. El código actual SORRYFORDELAY otorga 200 Coins."
+      },
+      {
+        "question": "¿Cómo sobrevivo a una ronda completa en Lurking Giants?",
+        "answer": "En Lurking Giants, la mayoría de los jugadores se convierten en supervivientes y deben mantenerse con vida durante la noche mientras un gigante caza por el mapa. Muévete entre coberturas sólidas, mantén una ruta de escape abierta, evita amontonarte en un solo lugar y rota a una nueva zona de escondite después de que el gigante revise tu posición."
+      },
+      {
+        "question": "¿Qué gigante debería desbloquear primero en Lurking Giants?",
+        "answer": "Los nuevos jugadores de Lurking Giants deberían aprender el rol con Locust, el gigante inicial gratuito. Una vez que recibas el rol de gigante con regularidad, ahorra 7.000 Coins para Guilt, la compra más fuerte para presionar en persecuciones a largo plazo, o elige a Verity del catálogo de la actualización actual."
+      },
+      {
+        "question": "¿Qué son las ventajas de jugador en Lurking Giants?",
+        "answer": "Las ventajas de jugador son bonificaciones de superviviente introducidas en la actualización Verity de Lurking Giants. Amplían la progresión junto con las nuevas clases de supervivientes, y se espera que sigan llegando ventajas adicionales a medida que continúa el rediseño."
+      },
+      {
+        "question": "¿Puedo jugar a Lurking Giants en dispositivos móviles y con un mando?",
+        "answer": "Sí. Lurking Giants funciona en PC y dispositivos móviles a través de Roblox hoy en día, utilizando un joystick virtual, cámara de deslizamiento y botones en pantalla para correr y usar habilidades. El soporte para mando y VR figura en la descripción oficial como características próximas en el rediseño."
+      },
+      {
+        "question": "¿Es Lurking Giants gratis?",
+        "answer": "Sí. Lurking Giants es gratis en Roblox. Las Coins se ganan completando rondas y canjeando códigos, mientras que los pases de Robux opcionales como 2x Giant Chance o la Powerful Flashlight son artículos de conveniencia y nunca se requieren para entrar a una partida."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para sobrevivir a Lurking Giants?",
+    "description": "Únete a la comunidad de ULTRA works en Discord para obtener los últimos códigos, actualizaciones, eventos y estrategias de supervivencia para Lurking Giants.",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Juega en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Lurking Giants",
+    "description": "Tu centro de recursos completo para códigos, guías de gigantes, ventajas, mapas, controles y consejos de supervivencia de Lurking Giants para el juego de terror analógico de Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "robloxGroup": "Grupo de Roblox",
+    "robloxGame": "Juego de Roblox",
+    "youtube": "Gameplay de YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Lurking Giants Wiki. No está afiliado con los desarrolladores de Lurking Giants.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Lurking Giants",
+      "description": "Últimos códigos funcionales para obtener Coins gratis, mejoras de estadísticas y ventajas por tiempo limitado. Actualizado a diario con códigos verificados y una guía de canje clara.",
+      "metaTitle": "Códigos de Lurking Giants - Coins y recompensas gratis",
+      "metaDescription": "Consigue Coins y recompensas gratis con los códigos activos de Lurking Giants. Actualizado a diario con códigos verificados que funcionan e instrucciones de canje paso a paso.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos son cadenas canjeables gratuitas publicadas por ULTRA works que otorgan Coins, mejoras de estadísticas y ventajas por tiempo limitado. Se lanzan nuevos códigos junto con actualizaciones importantes, lanzamientos de nuevos gigantes e hitos de la comunidad.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Coins gratis",
+        "step1Description": "Reclama Coins al instante para desbloquear nuevos gigantes y ventajas sin tener que grindear rondas.",
+        "step2Title": "Mantente al día",
+        "step2Description": "Los códigos llegan con cada actualización y evento, así que volver a consultar mantiene tu equipamiento competitivo.",
+        "step3Title": "Instantáneo y seguro",
+        "step3Description": "Canjearlos toma segundos en el juego y las recompensas llegan a tu cuenta de inmediato."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Lurking Giants",
+      "description": "Guías completas para principiantes que cubren las primeras rondas, controles, mecánicas de movimiento y reglas básicas para sobrevivir a los gigantes de terror analógico.",
+      "metaTitle": "Guía de Lurking Giants - Principiantes, controles y consejos",
+      "metaDescription": "Aprende a jugar a Lurking Giants con tutoriales para principiantes, controles completos para PC y móviles, mecánicas de movimiento y consejos para sobrevivir a las rondas nocturnas.",
+      "categoryLabel": "GUÍA DEL JUEGO",
+      "whatIs": "¿Qué es la guía?",
+      "whatIsDescription": "Las guías te muestran paso a paso tu primer lobby, las rondas iniciales y las condiciones de victoria, además de los controles de teclado, móvil y mando que necesitas para moverte, correr, agacharte y usar habilidades.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende lo básico",
+        "step1Description": "Comprende el flujo de la ronda, tus objetivos como superviviente y cómo evitar al gigante en los primeros minutos.",
+        "step2Title": "Domina los controles",
+        "step2Description": "Configura los controles de PC, móvil y mando para que el movimiento y el uso de habilidades se sientan automáticos bajo presión.",
+        "step3Title": "Juega de forma más inteligente",
+        "step3Description": "Aplica consejos y trucos que usan los jugadores experimentados para escapar de las persecuciones y llegar a zonas seguras."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "survival": {
+      "title": "Supervivencia en Lurking Giants",
+      "description": "Estrategias de supervivencia para esconderse, escapar y resistir las rondas nocturnas contra imponentes gigantes de horror analógico.",
+      "metaTitle": "Supervivencia en Lurking Giants - Escondites y consejos de escape",
+      "metaDescription": "Sobrevive en Lurking Giants con guías sobre los mejores escondites, rutas de escape, tácticas de rondas nocturnas y estrategias de supervivencia en solitario contra los gigantes.",
+      "categoryLabel": "TÁCTICAS DE SUPERVIVENCIA",
+      "whatIs": "¿Qué es la supervivencia?",
+      "whatIsDescription": "Las guías de supervivencia cubren ubicaciones de escondites, rutas de escape, comportamiento en rondas nocturnas y tácticas en solitario para que puedas mantenerte oculto, romper la línea de visión y llegar a la siguiente zona segura.",
+      "why": "¿Por qué centrarse en la supervivencia?",
+      "whySteps": {
+        "step1Title": "Encuentra escondites seguros",
+        "step1Description": "Aprende qué objetos, habitaciones y rincones del mapa te mantienen fuera de la línea de visión del gigante.",
+        "step2Title": "Planifica escapes",
+        "step2Description": "Memoriza rutas de escape y cortes de línea de visión para el momento en que el gigante te detecte.",
+        "step3Title": "Sobrevive a las rondas nocturnas",
+        "step3Description": "Adáptate a las rondas nocturnas de baja visibilidad y a situaciones en solitario donde el trabajo en equipo no es una opción."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de supervivencia"
+    },
+    "monsters": {
+      "title": "Monstruos de Lurking Giants",
+      "description": "Lista completa de monstruos, tipos de gigantes, habilidades y patrones de comportamiento de cada gigante que te caza en Lurking Giants.",
+      "metaTitle": "Monstruos de Lurking Giants - Lista de gigantes y habilidades",
+      "metaDescription": "Explora cada tipo de monstruo y gigante de Lurking Giants. Aprende sus habilidades, comportamiento y patrones, incluyendo al gigante Guilt y su kit completo.",
+      "categoryLabel": "MONSTRUOS",
+      "whatIs": "¿Qué son los monstruos?",
+      "whatIsDescription": "Los monstruos son los imponentes gigantes de terror analógico que cazan a los supervivientes en cada ronda. Cada gigante tiene habilidades, reglas de detección y condiciones de desbloqueo únicas que definen cómo sobrevives.",
+      "why": "¿Por qué estudiar a los monstruos?",
+      "whySteps": {
+        "step1Title": "Conoce a cada gigante",
+        "step1Description": "Aprende la lista completa de monstruos con estadísticas, habilidades y comportamiento de cada gigante del elenco.",
+        "step2Title": "Lee los kits de habilidades",
+        "step2Description": "Entiende lo que cada gigante puede hacer, desde las habilidades de Guilt hasta el rango de detección y los activadores de persecución.",
+        "step3Title": "Planifica según los patrones",
+        "step3Description": "Adapta tu estrategia de supervivencia y escape al gigante específico que caza en tu ronda."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los monstruos"
+    },
+    "roles": {
+      "title": "Roles de Lurking Giants",
+      "description": "Guías de roles para jugar como superviviente y gigante, que cubren habilidades, ventajas, estilo de juego y estrategia para ambos bandos.",
+      "metaTitle": "Roles de Lurking Giants - Guía de superviviente y gigante",
+      "metaDescription": "Domina ambos bandos de Lurking Giants con las guías de roles de superviviente y gigante. Aprende habilidades, ventajas, estilo de juego y estrategia, ya sea que te escondas o caces.",
+      "categoryLabel": "ROLES",
+      "whatIs": "¿Qué son los roles?",
+      "whatIsDescription": "Lurking Giants es un juego asimétrico con dos roles: Sobreviviente, que se esconde y escapa, y Gigante, que caza. Cada rol tiene sus propias habilidades, ventajas y condiciones de victoria.",
+      "why": "¿Por qué aprender ambos roles?",
+      "whySteps": {
+        "step1Title": "Sobrevive mejor",
+        "step1Description": "Conocer las tácticas, ventajas y movimientos de los sobrevivientes te mantiene con vida en cada mapa.",
+        "step2Title": "Caza de forma más inteligente",
+        "step2Description": "Jugar como gigante te enseña sobre detección, el uso oportuno de las habilidades y cómo piensan los sobrevivientes, para que cierres las rondas más rápido.",
+        "step3Title": "Adáptate a cualquier bando",
+        "step3Description": "Las guías de roles te preparan para cualquier bando que te asigne la partida, con estilo de juego y estrategia para cada uno."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de roles"
+    },
+    "maps": {
+      "title": "Mapas de Lurking Giants",
+      "description": "Guías de mapas que cubren diseños, áreas secretas, rutas de escape y escondites en cada mapa de Lurking Giants.",
+      "metaTitle": "Mapas de Lurking Giants: diseños, secretos y rutas de escape",
+      "metaDescription": "Explora cada mapa de Lurking Giants con guías de diseño, áreas secretas, rutas de escape y los mejores escondites para sobrevivir a cada ronda.",
+      "categoryLabel": "MAPAS",
+      "whatIs": "¿Qué son los mapas?",
+      "whatIsDescription": "Las guías de mapas detallan el diseño de cada entorno, incluyendo áreas secretas, rutas verticales, caminos de escape y escondites confiables que se mantienen tras las remodelaciones de los mapas.",
+      "why": "¿Por qué aprenderse los mapas?",
+      "whySteps": {
+        "step1Title": "Leer diseños",
+        "step1Description": "Entiende la estructura, los puntos de referencia y los carriles de cada mapa antes de que comience la ronda.",
+        "step2Title": "Encuentra secretos",
+        "step2Description": "Localiza áreas secretas y rutas verticales que te mantengan fuera del camino del gigante.",
+        "step3Title": "Planifica rutas de escape",
+        "step3Description": "Memoriza rutas de escape y zonas seguras para que puedas reubicarte en el momento en que te detecten."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de mapas"
+    },
+    "updates": {
+      "title": "Actualizaciones de Lurking Giants",
+      "description": "Sigue cada actualización, nota del parche, rework, nuevo gigante e información de lanzamiento de Lurking Giants a medida que el juego evoluciona.",
+      "metaTitle": "Actualizaciones de Lurking Giants - Notas del parche y rework",
+      "metaDescription": "Mantente al día con las actualizaciones de Lurking Giants, las notas del parche, la última versión, el rework en curso, los nuevos gigantes y la información sobre la fecha de lanzamiento.",
+      "categoryLabel": "ACTUALIZACIONES",
+      "whatIs": "¿Qué son las actualizaciones?",
+      "whatIsDescription": "Las guías de actualizaciones siguen las notas del parche, el historial de versiones, el rediseño a gran escala, los lanzamientos de nuevos gigantes y ventajas, los cambios de equilibrio y las correcciones de errores mientras ULTRA works continúa el desarrollo.",
+      "why": "¿Por qué seguir las actualizaciones?",
+      "whySteps": {
+        "step1Title": "Descubre contenido nuevo",
+        "step1Description": "Mira los nuevos gigantes, ventajas, mapas y códigos en el momento en que se lanza cada actualización.",
+        "step2Title": "Sigue el rediseño",
+        "step2Description": "Sigue el rediseño en curso, los cambios de equilibrio y el despliegue de compatibilidad con dispositivos, incluyendo VR y mando.",
+        "step3Title": "Lee las notas del parche",
+        "step3Description": "Revisa el historial de versiones, las correcciones de errores y la versión más reciente para que tu estrategia se mantenga al día."
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Actualizaciones"
+    }
   }
 }
