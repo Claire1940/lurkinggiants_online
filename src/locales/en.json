@@ -10,14 +10,7 @@
       "twitterDescription": "Lurking Giants Wiki covers codes, giants, perks, maps, controls, and survival tips for the Roblox analog-horror game."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

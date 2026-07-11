@@ -1,0 +1,3 @@
+# 内容目录占位
+# MDX 内容由后续 part（write-articles 拉取/手动编写）填充
+# generate-content-manifest.mjs 要求此目录存在，否则 exit(1)
