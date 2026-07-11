@@ -80,7 +80,7 @@ export default function HomePageClient({
   const DISCORD_INVITE = "https://discord.com/invite/ultraworks";
   const ROBLOX_COMMUNITY =
     "https://www.roblox.com/communities/172453377/ULTRA-works";
-  const YOUTUBE_VIDEO = "https://www.youtube.com/watch?v=xC2WY05wi0";
+  const YOUTUBE_VIDEO = "https://www.youtube.com/watch?v=xDC2WY05wi0";
 
   // Structured data
   const structuredData = {
@@ -244,7 +244,7 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="xC2WY05wi0"
+              videoId="xDC2WY05wi0"
               title="5 Idiots Escape 1 Lurking Giant - Lurking Giants Gameplay"
             />
           </div>
