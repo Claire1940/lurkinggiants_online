@@ -32,7 +32,7 @@ export default function CTASection({
               className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-6 md:px-8 py-5 md:py-6 text-base md:text-lg"
             >
               <a
-                href="https://discord.gg/E8H9maZ5Gn"
+                href="https://discord.com/invite/ultraworks"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,7 +41,7 @@ export default function CTASection({
               </a>
             </Button>
             <a
-              href="https://www.roblox.com/games/2339944792"
+              href="https://www.roblox.com/games/6328880674/Lurking-Giants"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md border border-border hover:bg-white/10 px-6 md:px-8 py-5 md:py-6 text-base md:text-lg font-medium transition-colors"

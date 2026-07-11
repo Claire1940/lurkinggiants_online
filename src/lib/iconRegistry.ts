@@ -28,6 +28,14 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Lurking Giants 模块导航卡片图标
+  Gift: LucideIcons.Gift,
+  Trophy: LucideIcons.Trophy,
+  Skull: LucideIcons.Skull,
+  Map: LucideIcons.Map,
+  Coins: LucideIcons.Coins,
+  Newspaper: LucideIcons.Newspaper,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
